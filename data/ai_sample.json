@@ -1,0 +1,179 @@
+[
+  {
+    "price_score": 1,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "독특하고 감성적인 인테리어와 다양한 시그니처 칵테일이 특징이며, 넓은 공간 덕분에 모임이나 소개팅 장소로 적합합니다.\n하지만 전반적으로 비싼 가격대와 일부 메뉴의 아쉬운 퀄리티 및 양이 단점으로 지적됩니다.\n특별한 분위기를 선호한다면 방문할 만하지만, 가성비를 중시한다면 고려가 필요합니다.",
+    "keywords": [
+      "독특한 분위기",
+      "시그니처 칵테일",
+      "모임장소",
+      "비싼 가격",
+      "다양한 메뉴"
+    ],
+    "procedures": [
+      {
+        "name": "칵테일 (시그니처, 십이지신, 뱀, 양, 호피홉 등)",
+        "price_range": "가격대 높음"
+      },
+      {
+        "name": "주류",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "안주",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "닭튀김",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "감자전",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우대갈비",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "gemini",
+    "hospital_id": 1,
+    "hospital_name": "맥스웰피부과의원 강남점",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "장점: 의료진이 매우 친절하고 시술이 꼼꼼하며, 시설이 쾌적하고 가격이 합리적입니다. 통증이 적고 여의사가 있다는 점도 장점입니다.\n단점: 예약 시스템이 매우 불편하고 대기가 길어 원하는 시기에 시술받기 어렵습니다. 일부 상담에서 공장형 느낌을 받거나 불쾌함을 경험하기도 했습니다.\n종합: 뛰어난 시술 만족도와 친절함에도 불구하고 심각한 예약 난이도가 개선되어야 할 주요 과제입니다.",
+    "keywords": [
+      "꼼꼼한 시술",
+      "친절한 의료진",
+      "쾌적한 시설",
+      "제모 전문",
+      "어려운 예약"
+    ],
+    "procedures": [
+      {
+        "name": "제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "수염제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인중 제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "겨드랑이 제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔/다리 제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "gemini",
+    "hospital_id": 4,
+    "hospital_name": "모리스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "전반적으로 친절한 직원과 합리적인 가격이 장점이나, 대기시간과 위생 문제는 단점으로 지적됨. 종합적으로는 개선이 필요한 병원.",
+    "keywords": [
+      "친절",
+      "가격",
+      "대기시간",
+      "위생",
+      "쾌적"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란힐러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "지방분해주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 7,
+    "hospital_name": "아비쥬의원 강남신관",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 친절하고 효과적인 시술이 많습니다. 대기시간이 길 수 있지만, 가격대가 합리적입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "합리적가격",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "티타늄 리프팅",
+        "price_range": "60,000원"
+      },
+      {
+        "name": "온다리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 8,
+    "hospital_name": "강남밴스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "독특한 인테리어와 시그니처 칵테일로 분위기 있는 모임 장소로 평가받음. 다만 비싼 가격대가 주요 단점으로 지적되고 있음. 칵테일 맛과 품질에 대한 평가는 엇갈리는 상황.",
+    "keywords": [
+      "감성적분위기",
+      "비싼가격",
+      "시그니처칵테일",
+      "독특한인테리어",
+      "모임추천"
+    ],
+    "procedures": [
+      {
+        "name": "시그니처 칵테일 (십이지신)",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "안주류 (우대갈비, 감자전, 닭튀김)",
+        "price_range": "비싼편"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 20,
+    "hospital_name": "뮤즈클리닉 강남점 본관",
+    "review_count": 20
+  }
+]

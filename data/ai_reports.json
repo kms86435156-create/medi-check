@@ -1,0 +1,9266 @@
+[
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "독특한 인테리어와 감성 있는 분위기가 강점으로, 특히 시그니처 칵테일과 안주의 맛이 호평받고 있습니다. 다만 전반적으로 높은 가격대가 주요 단점으로 지적되고 있습니다. 모임과 소개팅 장소로 추천할 만한 분위기 좋은 술집입니다.",
+    "keywords": [
+      "분위기좋음",
+      "비싼가격",
+      "시그니처칵테일",
+      "감성적",
+      "모임장소"
+    ],
+    "procedures": [
+      {
+        "name": "십이지신 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "시그니처 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "감자전",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우대갈비",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "닭튀김",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 1,
+    "hospital_name": "맥스웰피부과의원 강남점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 맛있는 음식이 장점이나, 가격이 비싸고 대기 시간이 길어 불편함이 있음. 종합적으로 만족스러운 경험.",
+    "keywords": [
+      "친절",
+      "비싸다",
+      "대기시간",
+      "맛있다",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "중국식 샤브샤브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 2,
+    "hospital_name": "이지함피부과의원 강남점",
+    "review_count": 15
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "정성스러운 손만두와 쫄깃한 면발이 특징인 칼국수 전문점으로, 신선한 재료를 사용한 요리가 강점입니다. 다만 높은 가격대에 비해 바지락 양이 적다는 지적이 있으며, 음식 맛의 편차와 긴 대기시간이 단점입니다. 친절한 직원 서비스와 미쉐린 선정 명성이 있지만 기대만큼 만족스럽지 않을 수 있습니다.",
+    "keywords": [
+      "손만두",
+      "쫄깃한 식감",
+      "신선한 재료",
+      "칼국수",
+      "높은 가격"
+    ],
+    "procedures": [
+      {
+        "name": "칼국수",
+        "price_range": "1만원대"
+      },
+      {
+        "name": "콩국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보쌈",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 3,
+    "hospital_name": "CU클린업피부과의원 강남점",
+    "review_count": 16
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "친절한 직원과 쾌적한 환경이 장점입니다. 예약 시스템이 불편하다는 단점이 있습니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "레이저제모",
+      "예약",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제모 관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 4,
+    "hospital_name": "모리스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "맛있고 푸짐한 한식 메뉴가 매력적입니다. 다소 대기 시간이 있지만 친절한 서비스가 돋보입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "한식",
+      "우삼겹",
+      "된장찌개",
+      "점심",
+      "술안주"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "한돈삼겹오징어 한판",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 5,
+    "hospital_name": "여름의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "칼국수와 만두가 맛있고 재방문 의사가 높음. 가격대는 보통이며, 대기시간이 길 수 있음.",
+    "keywords": [
+      "맛집",
+      "칼국수",
+      "만두",
+      "친절",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "칼국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 6,
+    "hospital_name": "블리비의원 강남역점",
+    "review_count": 16
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "가격이 합리적이고 직원들이 친절하지만 대기 시간이 길고 시술의 질이 일정하지 않음. 전반적으로 괜찮은 병원.",
+    "keywords": [
+      "친절",
+      "가격",
+      "대기시간",
+      "청결",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란힐러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "지방분해주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 7,
+    "hospital_name": "아비쥬의원 강남신관",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 직원과 깔끔한 환경이 인상적입니다. 대기시간이 길 수 있지만 시술 효과가 좋습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "대기시간",
+      "가격"
+    ],
+    "procedures": [
+      {
+        "name": "티타늄 리프팅",
+        "price_range": "60K"
+      },
+      {
+        "name": "온다리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 8,
+    "hospital_name": "강남밴스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "시설이 깨끗하고 직원들이 매우 친절합니다. 시술 효과도 좋고, 가격이 저렴한 편입니다. 종합적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "시술효과",
+      "저렴한가격",
+      "편안한분위기"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 9,
+    "hospital_name": "사적인아름다움 지유의원 강남본점",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "저렴하고 친절한 서비스가 장점이며, 대기시간이 다소 길 수 있습니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "저렴",
+      "친절",
+      "청결",
+      "가성비",
+      "편안함"
+    ],
+    "procedures": [
+      {
+        "name": "피코토닝",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔 제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 10,
+    "hospital_name": "아비쥬의원 강남본관",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비싸고 맛은 평균적이나, 직원들이 매우 친절합니다. 웨이팅이 짧아 방문하기 좋습니다.",
+    "keywords": [
+      "비싸다",
+      "친절",
+      "웨이팅",
+      "맛",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "매운소곱창쌀국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 11,
+    "hospital_name": "세라미크의원 강남",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "깨끗하고 친절한 직원들이 인상적입니다. 대기 시간도 짧아 편안하게 시술을 받을 수 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "편안한 분위기",
+      "빠른 응대",
+      "만족도 높음"
+    ],
+    "procedures": [
+      {
+        "name": "피코프랙셀",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 12,
+    "hospital_name": "세니아클리닉 1관",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "맛있는 두부와 막걸리를 제공하는 친절한 식당입니다. 대기 시간이 다소 있지만 가격이 저렴하고 맛이 좋습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "두부",
+      "막걸리",
+      "친절",
+      "맛집",
+      "등산"
+    ],
+    "procedures": [
+      {
+        "name": "순두부",
+        "price_range": "착한가격"
+      },
+      {
+        "name": "콩국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 13,
+    "hospital_name": "제이필의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 맛있고 양이 푸짐한 식사 경험. 다소 대기 시간이 있지만 친절한 서비스가 장점. 가격대도 합리적.",
+    "keywords": [
+      "맛집",
+      "점심",
+      "한식",
+      "친절",
+      "푸짐한"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 14,
+    "hospital_name": "너와의원 강남",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 맛있는 음식이 장점이나, 가격이 비싸고 대기 시간이 길다는 단점이 있습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "맛있음",
+      "비쌈",
+      "웨이팅",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "중국식 샤브샤브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 15,
+    "hospital_name": "강남비비의원",
+    "review_count": 15
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 5,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "가격이 비싸고 직원의 친절도가 낮지만, 음식 맛은 좋습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "비싸다",
+      "맛있다",
+      "시끄럽다",
+      "불친절",
+      "웨이팅없음"
+    ],
+    "procedures": [
+      {
+        "name": "평양냉면",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어복쟁반",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 16,
+    "hospital_name": "데이뷰의원 강남점",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절하고 전문적인 진료가 인상적입니다. 가격 정보는 부족하지만 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문",
+      "진료",
+      "피부과",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미용 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 17,
+    "hospital_name": "이지함피부과 청담점",
+    "review_count": 3
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "우삼겹과 오징어 조합, 깊고 깔끔한 된장찌개로 인기 있는 한식당입니다. 친절한 서빙과 푸짐한 구성, 합리적인 가격대가 장점이며, 점심과 저녁 모두 웨이팅이 발생할 수 있습니다.",
+    "keywords": [
+      "우삼겹오징어",
+      "된장찌개",
+      "직화구이",
+      "푸짐한양",
+      "친절한서빙"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어 한판 세트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "한돈삼겹오징어 한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우삼겹오징어정식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개정식",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 18,
+    "hospital_name": "나인피부과의원 강남점",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "모든 직원과 의사가 친절하고 상세한 설명을 해줍니다. 1인실에서 연속적으로 관리받는 점이 매우 좋습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "상세한설명",
+      "1인실",
+      "관리",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 19,
+    "hospital_name": "시아의원",
+    "review_count": 1
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "분위기가 독특하고 음식 퀄리티가 좋지만 가격이 비쌉니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "분위기",
+      "특색",
+      "비쌈",
+      "음식",
+      "칵테일"
+    ],
+    "procedures": [
+      {
+        "name": "칵테일",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "안주",
+        "price_range": "비쌈"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 20,
+    "hospital_name": "뮤즈클리닉 강남점 본관",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "병원이 깔끔하고 직원들이 친절하며, 가격이 저렴한 편입니다. 다만, 시술의 질이 일정하지 않을 수 있습니다.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "깔끔",
+      "효과적",
+      "이벤트"
+    ],
+    "procedures": [
+      {
+        "name": "피코토닝",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저 제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 21,
+    "hospital_name": "예쁨주의쁨의원 신논현점",
+    "review_count": 20
+  },
+  {
+    "price_score": 5,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 저렴한 가격이 장점. 대기 시간과 통증은 보통 수준. 종합적으로 믿을 수 있는 클리닉.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "신뢰",
+      "의사",
+      "간호사"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 22,
+    "hospital_name": "오엘의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "의사와 간호사들은 친절하지만, 대기 시간이 길고 직원 관리가 필요함. 전반적으로 보통 수준.",
+    "keywords": [
+      "친절한 의사",
+      "긴 대기시간",
+      "직원 관리 필요",
+      "예약제",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "아쿠아필",
+        "price_range": "9.9만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 23,
+    "hospital_name": "CNP차앤박피부과 도곡양재점",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "진료는 친절하나 가격이 비싸고 대기 시간이 길다. 전반적으로 만족스러운 경험이지만 비용 문제로 재방문에 고민이 필요하다.",
+    "keywords": [
+      "친절",
+      "비용",
+      "대기시간",
+      "청결",
+      "여드름"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 진료",
+        "price_range": "12000원"
+      },
+      {
+        "name": "염증 주사",
+        "price_range": "22000원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 24,
+    "hospital_name": "CNP차앤박피부과 양재점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "전반적으로 친절하지 않은 직원과 비싼 시술이 문제. 원장 선생님의 치료는 세심하지만, 고객 대우가 부족하다.",
+    "keywords": [
+      "친절",
+      "비용",
+      "청결",
+      "시술",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "여드름치료 패키지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "실펌",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 25,
+    "hospital_name": "CNP차앤박피부과 압구정점",
+    "review_count": 10
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "친절한 의사와 쾌적한 환경이 장점입니다. 그러나 직원의 불친절함과 대기 시간이 단점으로 지적됩니다. 전반적으로 치료 효과에 대한 만족도가 높습니다.",
+    "keywords": [
+      "탈모",
+      "친절",
+      "치료효과",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "모발이식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "모낭주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 26,
+    "hospital_name": "압구정더모의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 진료와 합리적인 가격이 장점. 대기시간이 길고 직원의 일관성이 부족한 점은 단점. 전반적으로 추천할 만한 피부과.",
+    "keywords": [
+      "친절",
+      "진료",
+      "대기시간",
+      "합리적",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "일반진료",
+        "price_range": "5천원 초반대"
+      },
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 27,
+    "hospital_name": "예인피부과의원 선릉점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "엠레드의원은 깔끔한 시설과 친절한 직원들로 좋은 평가를 받고 있습니다. 가격이 다소 비싸다는 의견이 있으나, 시술 효과에 대한 만족도가 높습니다. 종합적으로 추천할 만한 클리닉입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "시술효과",
+      "전문성",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 28,
+    "hospital_name": "엠레드의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깨끗한 환경이 돋보이는 의원입니다. 시술 결과에 대한 만족도가 높고, 대기 시간도 짧습니다. 전반적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "빠른시술",
+      "만족도",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "슈링크",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "윤곽주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "입술필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩 볼륨",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "코모공 레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "올타이트닝 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "립쥬란",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 29,
+    "hospital_name": "연세라미슈의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "위치가 좋고, 시술 효과가 뛰어나며, 직원들이 친절합니다. 다만, 가격이 저렴하다는 평이 많습니다.",
+    "keywords": [
+      "친절",
+      "위생",
+      "효과",
+      "접근성",
+      "가격"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제로팻",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "온다리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "콜라스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리니어지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마크뷰",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레디어스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제네시스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 30,
+    "hospital_name": "삼성 밴스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "고급스러운 분위기와 프라이빗한 케어가 장점입니다. 가격대가 다소 높지만 만족스러운 서비스가 제공됩니다. 전반적으로 추천할 만한 피부과입니다.",
+    "keywords": [
+      "프리미엄 케어",
+      "고급스러운 분위기",
+      "친절한 상담",
+      "청결한 시설",
+      "효과적인 시술"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "켈로이드 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "실펌",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "덴서티",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스컬트라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "색소토닝",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 31,
+    "hospital_name": "디오디피부과의원 청담",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전문적인 상담과 친절한 서비스가 장점입니다. 대기 시간이 길 수 있으며, 가격 정보는 부족합니다. 종합적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "상담",
+      "추천",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "상담",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 32,
+    "hospital_name": "예라인의원 압구정점",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "시설이 깨끗하고 직원들이 친절하지만, 대기 시간이 길고 시술이 아프다는 리뷰가 많습니다. 전반적으로 효과를 보는 환자들이 많습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과",
+      "대기시간",
+      "다이어트"
+    ],
+    "procedures": [
+      {
+        "name": "mpl핏",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔핏주사",
+        "price_range": "5만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 33,
+    "hospital_name": "상상의원 신사본점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "가격이 비싸고 대기 시간이 길지만, 일부 직원들은 친절함. 전반적으로 서비스와 진료에 대한 신뢰가 부족함.",
+    "keywords": [
+      "비쌈",
+      "대기시간",
+      "친절",
+      "신뢰부족",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "지방분해주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 34,
+    "hospital_name": "연세라인업의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비싸고 맛은 평균적이나 직원들이 매우 친절합니다. 웨이팅이 짧아 방문하기 좋습니다.",
+    "keywords": [
+      "비쌈",
+      "친절",
+      "웨이팅짧음",
+      "맛평균",
+      "청결보통"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "소곱창",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 35,
+    "hospital_name": "수피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 좋은 시술로 만족스러운 경험을 했습니다. 다만, 상담이 부족한 점이 아쉬웠습니다. 전반적으로 긍정적인 평가입니다.",
+    "keywords": [
+      "친절",
+      "시술효과",
+      "가격착함",
+      "청결",
+      "상담부족"
+    ],
+    "procedures": [
+      {
+        "name": "울쎄라+슈링크+쥬베룩+스킨보톡스",
+        "price_range": "착한가격"
+      },
+      {
+        "name": "아쿠아필",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 36,
+    "hospital_name": "닥터쁘띠의원 강남점",
+    "review_count": 7
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "독특한 인테리어와 감성 있는 분위기가 강점으로, 시그니처 칵테일과 안주의 맛도 호평받고 있습니다. 다만 전반적으로 가격대가 높은 편이며, 칵테일 퀄리티의 편차가 있다는 점이 단점입니다.",
+    "keywords": [
+      "독특한분위기",
+      "시그니처칵테일",
+      "소개팅장소",
+      "비싼가격",
+      "감성있는인테리어"
+    ],
+    "procedures": [
+      {
+        "name": "시그니처 칵테일(십이지신)",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우대갈비",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "감자전",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "닭튀김",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 37,
+    "hospital_name": "예젤의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "곱창쌀국수가 주력 메뉴로 양이 푸짐하고 가성비가 있으나, 웨이팅이 길고 맛의 편차가 있다는 평가가 많다. 직원 친절도는 높은 편이나 가격대비 만족도가 낮다는 의견이 지배적이다.",
+    "keywords": [
+      "곱창쌀국수",
+      "웨이팅",
+      "양많음",
+      "고기질김",
+      "친절한직원"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16,000원대"
+      },
+      {
+        "name": "프리미엄보양쌀국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "숯불고기볶음밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "직화불고기",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "분짜",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 38,
+    "hospital_name": "아미스킨의원 강남점",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "독특한 인테리어와 감성 있는 분위기가 장점으로, 시그니처 칵테일과 안주의 맛도 대체로 긍정적입니다. 다만 주류와 안주의 높은 가격대가 주요 단점으로 지적됩니다. 모임과 소개팅 장소로 추천할 만한 특색 있는 술집입니다.",
+    "keywords": [
+      "독특한분위기",
+      "시그니처칵테일",
+      "감성적",
+      "비싼가격",
+      "모임장소추천"
+    ],
+    "procedures": [
+      {
+        "name": "십이지신 시그니처 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "호피홉 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "감자전",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우대갈비",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "닭튀김",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 39,
+    "hospital_name": "VS라인의원 강남점",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 믿음직한 원장님 덕분에 편안한 진료 경험. 가격이 저렴한 편이나 대기 시간이 보통 수준.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "편안한진료",
+      "신뢰",
+      "치과"
+    ],
+    "procedures": [
+      {
+        "name": "충치치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "비보험 진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 40,
+    "hospital_name": "갤러리의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 원장님과 자세한 설명이 인상적입니다. 가격과 대기 시간에 대한 정보는 부족합니다. 전반적으로 긍정적인 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "자세한 설명",
+      "피부염",
+      "미용",
+      "환자 중심"
+    ],
+    "procedures": [
+      {
+        "name": "피부염 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미용 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 41,
+    "hospital_name": "에스듈피부과",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "전반적으로 친절하고 섬세한 시술로 만족도가 높습니다. 가격에 대한 언급은 없지만, 대기시간이 보통 수준입니다.",
+    "keywords": [
+      "친절",
+      "섬세한 시술",
+      "보톡스",
+      "피부과",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라 스킨보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "더모톡신",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 42,
+    "hospital_name": "권오정리얼뷰티의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "서울 유명 순대국밥 전문점으로 진한 국물, 푸짐한 내장과 고기, 잡내 없는 깔끔한 맛이 장점입니다. 다만 웨이팅이 길고 가격대가 높으며 일관성 부분에서 아쉬운 점이 있습니다. 맛은 우수하지만 대기시간 대비 만족도는 개인차가 있는 편입니다.",
+    "keywords": [
+      "순대국밥",
+      "깔끔한국물",
+      "웨이팅길음",
+      "강남역점",
+      "진한맛"
+    ],
+    "procedures": [
+      {
+        "name": "순대국밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "수육",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 43,
+    "hospital_name": "골드제이의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "수액효과와 피부시술이 뛰어나며, 병원 청결도가 높습니다. 가격이 합리적이고 친절한 직원들이 인상적입니다.",
+    "keywords": [
+      "수액",
+      "피부시술",
+      "청결",
+      "친절",
+      "합리적가격"
+    ],
+    "procedures": [
+      {
+        "name": "수액",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부시술 오아시스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 44,
+    "hospital_name": "비티큐의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "멕시코 현지 맛에 가까운 타코를 제공하는 맛집입니다. 가격대가 아쉽고 대기 시간이 있지만, 직원들이 친절하고 맛은 뛰어납니다.",
+    "keywords": [
+      "타코",
+      "멕시코",
+      "맛집",
+      "친절",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "타코",
+        "price_range": "5000원"
+      },
+      {
+        "name": "혼합 타코",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 45,
+    "hospital_name": "유앤아이의원 선릉점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "모아이의원은 친절한 직원과 청결한 시설이 장점입니다. 상담과 시술이 꼼꼼하게 진행되지만, 원장님의 불친절한 태도가 단점으로 지적됩니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "상담",
+      "모발이식",
+      "탈모치료"
+    ],
+    "procedures": [
+      {
+        "name": "모발이식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "탈모치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 46,
+    "hospital_name": "모아이의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "전반적으로 친절하고 치료 효과가 좋지만, 대기 시간이 길고 일부 직원의 불친절함이 아쉬움. 종합적으로 추천할 만한 피부과.",
+    "keywords": [
+      "여드름",
+      "친절",
+      "효과적",
+      "대기시간",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬에이드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "주사 피부염 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 47,
+    "hospital_name": "예지인피부과의원",
+    "review_count": 12
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "여드름 치료 효과는 우수하다는 평가가 있으나, 데스크 직원의 불친절한 태도가 단점입니다. 장기간 해결되지 않은 여드름도 효과적으로 치료하는 병원으로 알려져 있습니다.",
+    "keywords": [
+      "여드름치료",
+      "피부과",
+      "불친절한직원",
+      "효과적인치료",
+      "완치경험"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 압출",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 프로그램",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 48,
+    "hospital_name": "더나인 피부과의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비싸고 웨이팅이 있지만, 직원들이 매우 친절합니다. 음식의 맛은 평균적이며, 양이 많아 부담스러울 수 있습니다.",
+    "keywords": [
+      "비쌈",
+      "친절",
+      "웨이팅",
+      "양많음",
+      "평균맛"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "소곱창",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 49,
+    "hospital_name": "더리즈의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절하고 전문적인 직원들이 있어 시술 결과에 만족합니다. 가격도 적당하고 청결한 환경이 장점입니다. 단, 대기 시간이 다소 길 수 있습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "청결",
+      "만족",
+      "자연스러움"
+    ],
+    "procedures": [
+      {
+        "name": "풀립문신",
+        "price_range": "중간가격"
+      },
+      {
+        "name": "눈썹 디자인",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 50,
+    "hospital_name": "라인피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "의사와 직원이 친절하고 진료가 섬세하지만 특정 피부질환에 대한 진료는 제한적입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "섬세한진료",
+      "비양심적",
+      "대기시간",
+      "피부질환"
+    ],
+    "procedures": [
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 51,
+    "hospital_name": "리젠의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "의사 선생님이 친절하고 효과적인 시술을 제공하여 만족도가 높습니다. 대기 시간이 짧고 청결한 환경이 장점입니다. 다만, 일부 환자는 주사 후 불편함을 호소했습니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "청결",
+      "빠른대기",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "튠페이스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "다이어트약",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 52,
+    "hospital_name": "메이드유의원 강남본점",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "시설이 깔끔하고 직원들이 친절합니다. 가격 정보는 부족하지만 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "상담",
+      "보톡스",
+      "필러"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 53,
+    "hospital_name": "소이의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절한 상담과 효과적인 시술이 인상적입니다. 가격은 적당하며, 대기 시간이 보통입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절한 상담",
+      "효과적인 시술",
+      "적당한 가격",
+      "청결한 시설",
+      "빠른 회복"
+    ],
+    "procedures": [
+      {
+        "name": "비절개 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "이마 필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "턱 필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "온다 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "티타늄 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "입술 필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마리젯 스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스레드 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "올리지오",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔뚝살 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 54,
+    "hospital_name": "뉴스타의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 청결한 병원입니다. 가격이 다소 불투명한 부분이 있지만, 시술 효과는 만족스럽습니다. 종합적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "전문적",
+      "접근성"
+    ],
+    "procedures": [
+      {
+        "name": "주름보톡스",
+        "price_range": "11만원"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 55,
+    "hospital_name": "신논현톡스앤필의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "원장님이 친절하고 꼼꼼하게 설명해주셔서 만족스러운 경험이었습니다. 가격에 대한 불만이 있는 환자도 있었지만, 전반적으로 좋은 평가입니다.",
+    "keywords": [
+      "친절",
+      "상담",
+      "자연스러움",
+      "만족",
+      "가격"
+    ],
+    "procedures": [
+      {
+        "name": "애교머리",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "헤어라인",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 56,
+    "hospital_name": "모디헤어플란트의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님 덕분에 기분 좋은 경험을 했습니다. 시술 효과도 만족스럽고 청결한 환경이 장점입니다. 재방문 의사가 높습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "만족",
+      "재방문"
+    ],
+    "procedures": [
+      {
+        "name": "리써FX",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "흑자제거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "모공레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리팟",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 57,
+    "hospital_name": "뉴브의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 5,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 청결한 환경이 장점입니다. 통증이 적고 대기 시간이 없어서 만족스러웠습니다. 전반적으로 긍정적인 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "통증완화",
+      "빠른대기",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "실리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 58,
+    "hospital_name": "팽팽의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 청결한 시설이 장점이며, 가격은 다소 비쌀 수 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "비용",
+      "리프팅",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 59,
+    "hospital_name": "V&MJ피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "새들러하우스는 다양한 디저트를 제공하는 매력적인 카페입니다. 가격과 대기 시간은 보통이며, 청결과 직원 친절도도 평균적입니다.",
+    "keywords": [
+      "디저트",
+      "가로수길",
+      "카페",
+      "프렌치와플",
+      "초코"
+    ],
+    "procedures": [
+      {
+        "name": "버터떡",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "프렌치 와플",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 60,
+    "hospital_name": "포레피부과의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "전반적으로 친절하고 가격이 합리적이며, 다양한 시술이 가능하지만 대기 시간이 있을 수 있습니다.",
+    "keywords": [
+      "친절",
+      "합리적가격",
+      "다양한시술",
+      "청결",
+      "접근성"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 61,
+    "hospital_name": "아비쥬의원 청담",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "디에이피부과의원 도산은 전반적으로 보통 수준의 서비스와 가격을 제공하며, 특별한 장점이나 단점은 없는 곳입니다.",
+    "keywords": [
+      "디에이피부과",
+      "도산",
+      "피부과",
+      "강남",
+      "환자리뷰"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 62,
+    "hospital_name": "디에이피부과의원 도산",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "리원피부과의원은 깨끗한 시설과 친절한 직원으로 만족스러운 경험을 제공합니다. 다만, 대기 시간이 다소 있을 수 있습니다. 전반적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "전문성",
+      "추천",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "아쿠아필",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "소프웨이브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩볼륨",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "얼굴라인교정",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "탄력리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "체형교정",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "모공케어",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 63,
+    "hospital_name": "리원피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "음식 맛이 좋지만, 대기 시간이 길고 공간이 협소한 점이 아쉽습니다. 전반적으로 무난한 경험이었습니다.",
+    "keywords": [
+      "맛집",
+      "웨이팅",
+      "협소",
+      "태국음식",
+      "팟타이"
+    ],
+    "procedures": [
+      {
+        "name": "탕후루 팟타이",
+        "price_range": "39,000원"
+      },
+      {
+        "name": "족발 덮밥",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 64,
+    "hospital_name": "톡스앤필의원 압구정점",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "압구정의 핫한 카페로 분위기가 좋지만 대기 시간이 길고 혼잡하다. 전반적으로 보통 수준.",
+    "keywords": [
+      "압구정",
+      "카페",
+      "핫플",
+      "유럽풍",
+      "혼잡"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 65,
+    "hospital_name": "리더스피부과 압구정점",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "맛있는 보쌈과 김치가 강점이며, 웨이팅이 길고 직원의 친절도는 다소 아쉬운 편입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "보쌈",
+      "김치",
+      "웨이팅",
+      "친절",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "보쌈",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "해물파전",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 66,
+    "hospital_name": "문의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "사르티네의원은 청결하고 친절한 직원들 덕분에 편안한 경험을 제공합니다. 시술의 통증이 적고 효과가 빠르게 나타나는 점이 장점입니다. 전반적으로 만족스러운 방문이었습니다.",
+    "keywords": [
+      "청결",
+      "친절",
+      "효과적",
+      "편안한",
+      "신뢰성"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "이중턱 미니 지방흡입",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쿨소닉",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "고주파",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "옆볼필러",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 67,
+    "hospital_name": "사르티네의원",
+    "review_count": 7
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깨끗한 환경이 장점입니다. 상담이 꼼꼼하고 시술 효과도 만족스럽습니다. 전반적으로 긍정적인 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "상담",
+      "시술효과",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "쥬베룩",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 68,
+    "hospital_name": "VS라인의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님 덕분에 기분 좋은 경험이었습니다. 추천 시술 강권이 없어 좋았습니다. 종합적으로 매우 만족스럽습니다.",
+    "keywords": [
+      "친절",
+      "알러지",
+      "추천",
+      "시술",
+      "기분좋음"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 69,
+    "hospital_name": "레이의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "압구정의 핫한 카페로 분위기가 좋지만 대기 시간이 길고 주차가 불편합니다. 전반적으로 보통 수준입니다.",
+    "keywords": [
+      "압구정",
+      "카페",
+      "핫플",
+      "유럽풍",
+      "대기"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 70,
+    "hospital_name": "청담셀팅의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "새들러하우스는 다양한 디저트를 제공하는 매력적인 카페입니다. 가격과 대기 시간이 보통이며, 청결도와 직원 친절도도 평균적입니다.",
+    "keywords": [
+      "디저트",
+      "카페",
+      "프렌치와플",
+      "버터떡",
+      "크로플"
+    ],
+    "procedures": [
+      {
+        "name": "프렌치 와플",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "버터떡",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 71,
+    "hospital_name": "압구정튠의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "에버피부과의원은 전반적으로 보통 수준의 서비스와 가격을 제공하며, 대기 시간도 평균적입니다. 청결 상태는 양호하지만, 직원 친절도는 개선이 필요합니다.",
+    "keywords": [
+      "에버피부과",
+      "피부관리",
+      "강남",
+      "환자리뷰",
+      "의료서비스"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "주사요법",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 72,
+    "hospital_name": "에버피부과의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 2,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "전반적으로 불친절한 직원과 긴 대기시간이 문제로 지적되었으며, 의사의 설명은 긍정적으로 평가됨. 가격이 비싸고 효과에 대한 불만도 존재.",
+    "keywords": [
+      "불친절",
+      "대기시간",
+      "가격비쌈",
+      "의사설명",
+      "피부트러블"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부염 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 73,
+    "hospital_name": "연세마이피부과 삼성점",
+    "review_count": 16
+  },
+  {
+    "price_score": 4,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "의사와 간호사들이 친절하나 대기 시간이 길고 치료 효과에 대한 불만이 있음. 전반적으로 보통 수준의 병원.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "치료효과",
+      "피부질환",
+      "과잉진료"
+    ],
+    "procedures": [
+      {
+        "name": "레이저제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부질환 치료",
+        "price_range": "5천원 미만"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 74,
+    "hospital_name": "신학철피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 5,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절하고 깔끔한 병원으로 대기 시간이 짧아 편안한 시술이 가능하다. 가격도 합리적이며, 전반적으로 만족스러운 경험을 제공한다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "빠른대기",
+      "합리적가격",
+      "만족도높음"
+    ],
+    "procedures": [
+      {
+        "name": "피부 상담",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 75,
+    "hospital_name": "오운의원 삼성",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "피부질환 진료에 대한 긍정적인 평가가 있지만, 가격과 대기 시간에 대한 정보는 부족합니다. 종합적으로 보통 수준입니다.",
+    "keywords": [
+      "피부질환",
+      "진료",
+      "친절",
+      "삼성역",
+      "비용"
+    ],
+    "procedures": [
+      {
+        "name": "피부질환 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "성형",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 76,
+    "hospital_name": "닥터밸리의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원들과 깔끔한 시설이 인상적입니다. 대기 시간이 짧고 시술 결과도 만족스럽습니다. 전반적으로 믿고 방문할 수 있는 병원입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "빠른진료",
+      "만족도",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "덴서티",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라프라임",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "시너지레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 77,
+    "hospital_name": "창피부과",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 의사들이 있는 병원이나 피부과 전문의 부재가 아쉬움. 전반적으로 긍정적인 경험.",
+    "keywords": [
+      "친절",
+      "피부과",
+      "전문가부재",
+      "일반진료",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 78,
+    "hospital_name": "리드림의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "고급스러운 시설과 친절한 직원들이 인상적입니다. 시술 효과에 대한 만족도가 높지만, 일부 환자는 피부과 전문의가 아니라는 점에 놀랐습니다. 전반적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "고급스러움",
+      "상담",
+      "시술효과",
+      "위치"
+    ],
+    "procedures": [
+      {
+        "name": "덴서티",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "세르프",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 79,
+    "hospital_name": "셀레스티얼의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "분위기가 좋고 커피와 디저트 맛이 뛰어나지만 가격이 비쌉니다. 전반적으로 아늑한 공간에서 편안한 시간을 보낼 수 있습니다.",
+    "keywords": [
+      "분위기",
+      "커피",
+      "디저트",
+      "친절",
+      "비쌈"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 80,
+    "hospital_name": "티원클리닉",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "전문적인 시술과 효과가 좋지만 대기 시간이 길고 가격이 비싸다는 의견이 많습니다. 전반적으로 만족스러운 피부과입니다.",
+    "keywords": [
+      "전문성",
+      "효과적",
+      "대기시간",
+      "친절",
+      "비용"
+    ],
+    "procedures": [
+      {
+        "name": "티타늄 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스케일링",
+        "price_range": "10만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 81,
+    "hospital_name": "미소가인피부과의원 삼성점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 효과가 좋고 친절한 서비스가 인상적입니다. 대기 시간이 길 수 있으며, 가격 정보는 부족합니다.",
+    "keywords": [
+      "피부과",
+      "레이저",
+      "친절",
+      "효과",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "아꼴레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 82,
+    "hospital_name": "삼성비앤에스의원",
+    "review_count": 13
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "타코의 맛이 멕시코 현지에 가깝고, 친절한 서비스가 돋보입니다. 다만 가격이 다소 아쉽고 대기 시간이 있을 수 있습니다.",
+    "keywords": [
+      "타코",
+      "멕시코",
+      "친절",
+      "맛집",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "타코",
+        "price_range": "5000원"
+      },
+      {
+        "name": "혼합 타코",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 83,
+    "hospital_name": "W클리닉 삼성점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "맛있는 통닭과 다양한 메뉴가 장점. 대기시간이 길고 친절도는 다소 차이가 있음. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "치킨",
+      "맛집",
+      "신논현",
+      "삼미통닭",
+      "대구3대통닭"
+    ],
+    "procedures": [
+      {
+        "name": "삼미통닭",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "파닭",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 84,
+    "hospital_name": "바노바기피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "분위기가 좋고 커피와 디저트가 맛있지만 가격이 비싼 편입니다. 전반적으로 아늑한 공간이지만 모기가 많아 불편할 수 있습니다.",
+    "keywords": [
+      "분위기",
+      "커피",
+      "디저트",
+      "친절",
+      "비싼"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 85,
+    "hospital_name": "원셀의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "사장님이 매우 친절하고 유익한 꿀팁을 제공해 주셨습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "꿀팁",
+      "만족",
+      "경험",
+      "감사"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 86,
+    "hospital_name": "아름다움",
+    "review_count": 1
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 5,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "맛있는 음식과 다양한 메뉴가 있지만, 가격이 비싸고 직원의 불친절함이 아쉽다. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "맛집",
+      "비싸다",
+      "불친절",
+      "냉면",
+      "어복쟁반"
+    ],
+    "procedures": [
+      {
+        "name": "평양냉면",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어복쟁반",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 87,
+    "hospital_name": "셀앤의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "전문 의사와 친절한 간호사들이 있지만, 대기 시간이 길고 시술 비용이 비싸다는 리뷰가 많습니다. 전반적으로 보통 수준입니다.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "비용",
+      "전문성",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 88,
+    "hospital_name": "인샤인피부과의원",
+    "review_count": 14
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 상담과 꼼꼼한 시술로 만족도가 높습니다. 대기 시간이 짧고 직원들이 친절합니다. 재방문 의사가 강한 병원입니다.",
+    "keywords": [
+      "재방문",
+      "친절",
+      "전문가",
+      "만족",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩볼륨",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 89,
+    "hospital_name": "글로리의원",
+    "review_count": 9
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "팟타이, 랭쎕 등 태국 요리를 합리적인 가격대에 즐길 수 있는 맛집으로 평가받고 있습니다. 주말 기준 상당한 웨이팅이 발생하며 협소한 매장 규모가 단점입니다. 맛과 신선도는 우수하나 회전율 문제로 인한 대기 시간 개선이 필요합니다.",
+    "keywords": [
+      "태국음식",
+      "팟타이",
+      "웨이팅",
+      "맛집",
+      "합리적가격"
+    ],
+    "procedures": [
+      {
+        "name": "팟타이",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "랭쎕",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "족발덮밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "공심채 바질돼지고기볶음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "똠양꿍",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "새우튀김",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마늘 돼지뼈",
+        "price_range": "약 19,500원"
+      },
+      {
+        "name": "탕후루",
+        "price_range": "약 19,500원"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 90,
+    "hospital_name": "닥터홈즈의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "신사동의 인기 디저트 카페로 다양한 메뉴가 매력적입니다. 그러나 대기 시간과 가격에 대한 언급이 있어 혼잡할 수 있습니다. 전반적으로 보통 수준입니다.",
+    "keywords": [
+      "디저트",
+      "카페",
+      "가로수길",
+      "프렌치와플",
+      "초코"
+    ],
+    "procedures": [
+      {
+        "name": "버터떡",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "프렌치 와플",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 91,
+    "hospital_name": "더힐피부과의원 신사본점",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 청결한 환경에서 만족스러운 시술을 받을 수 있는 곳입니다. 대기 시간도 짧고, 가격도 적당한 편입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "편안한",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "리투오",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 92,
+    "hospital_name": "아이디피부과",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "깔끔한 인테리어와 친절한 스태프가 장점입니다. 시술에 대한 설명이 세심하게 이루어져 만족도가 높습니다. 종합적으로 좋은 경험이었습니다.",
+    "keywords": [
+      "리프팅",
+      "보톡스",
+      "친절한 스태프",
+      "청결",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 93,
+    "hospital_name": "신사하이미의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "리프톤피부과는 친절한 원장님과 깨끗한 환경이 장점입니다. 상담이 자세하고 시술 효과도 좋습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "상담",
+      "시술효과",
+      "청결",
+      "프라이빗"
+    ],
+    "procedures": [
+      {
+        "name": "울쎄라피프라임",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "압토스실리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 94,
+    "hospital_name": "리프톤피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 다소 비싸지만, 원장님의 전문성이 뛰어나고 친절한 서비스가 인상적입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "제모",
+      "전문성",
+      "친절",
+      "비용",
+      "효과"
+    ],
+    "procedures": [
+      {
+        "name": "수염 영구제모",
+        "price_range": "220만원"
+      },
+      {
+        "name": "눈썹제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 95,
+    "hospital_name": "고우석제이엠오피부과의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "원장의 실력과 친절함, 최신 시설이 강점이나 가격 정책의 일관성 부족과 직원 태도의 편차가 문제. 긍정적 평가와 부정적 평가가 극명하게 나뉘는 병원.",
+    "keywords": [
+      "원장 실력 좋음",
+      "최신기계 구비",
+      "개인룸 제공",
+      "가격 정책 불명확",
+      "직원 친절도 편차"
+    ],
+    "procedures": [
+      {
+        "name": "스킨 바이브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란 HB",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 96,
+    "hospital_name": "베일러의원 신사본점",
+    "review_count": 8
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깨끗한 환경이 장점입니다. 대기 시간이 다소 있지만 시술 결과에 만족하는 환자가 많습니다. 종합적으로 믿고 방문할 수 있는 병원입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "대기시간",
+      "시술결과",
+      "피부관리"
+    ],
+    "procedures": [
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 97,
+    "hospital_name": "임이석테마피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "고기 맛과 메뉴는 좋지만, 긴 대기 시간과 위생 문제로 아쉬움이 남는다. 전반적으로 맛있지만 개선이 필요하다.",
+    "keywords": [
+      "고기맛",
+      "웨이팅",
+      "위생문제",
+      "친절도",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "목살",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 98,
+    "hospital_name": "오체안피부과의원 신사점",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "맛있는 통닭과 다양한 메뉴가 매력적입니다. 대기 시간이 길 수 있으며, 직원 친절도는 보통입니다.",
+    "keywords": [
+      "통닭",
+      "맛집",
+      "신논현",
+      "치킨",
+      "맥주"
+    ],
+    "procedures": [
+      {
+        "name": "삼미통닭",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "파닭",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 99,
+    "hospital_name": "닥터스피부과의원 신사점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "족발의 맛은 괜찮지만 가격이 비쌈. 대기시간은 짧고 분위기는 좋음. 전반적으로 보통 수준.",
+    "keywords": [
+      "족발",
+      "비쌈",
+      "대기짧음",
+      "맛있음",
+      "분위기좋음"
+    ],
+    "procedures": [
+      {
+        "name": "족발",
+        "price_range": "40,000원"
+      },
+      {
+        "name": "막국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 100,
+    "hospital_name": "안성렬성형외과피부과",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "눈 재수술을 받았으나 결과에 만족하지 못해 후회하고 있습니다. 시술 결과의 질과 의료진의 전문성에 대한 의문이 있으며, 종합적으로 부정적인 경험을 했습니다.",
+    "keywords": [
+      "눈수술",
+      "재수술",
+      "낮은만족도",
+      "후회",
+      "결과불만족"
+    ],
+    "procedures": [
+      {
+        "name": "눈 재수술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 101,
+    "hospital_name": "에어리어88성형외과&피부과",
+    "review_count": 1
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원들과 맛있는 음식이 장점입니다. 하지만 가격이 비싸고 대기 시간이 길다는 단점이 있습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "맛있음",
+      "비쌈",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "중국식 샤브샤브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 102,
+    "hospital_name": "리엔장성형외과의원 피부과",
+    "review_count": 15
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "특별한 분위기와 다양한 메뉴가 장점이나 가격이 비쌉니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "분위기",
+      "가격",
+      "칵테일",
+      "안주",
+      "모임"
+    ],
+    "procedures": [
+      {
+        "name": "칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "안주",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 103,
+    "hospital_name": "리츠피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 친절한 직원과 원장님이 있으나, 대기 시간이 길고 치료 효과는 미비하다는 의견이 많습니다. 가격은 다소 비싸게 느껴질 수 있습니다.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "비용",
+      "효과",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "아토피 색소침착 레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "다리 튼살 치료",
+        "price_range": "550만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 104,
+    "hospital_name": "세진피부과의원",
+    "review_count": 7
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "병원 내부가 깔끔하고 상담이 친절합니다. 대기 시간이 길어 불편할 수 있습니다. 전반적으로 신뢰할 수 있는 곳입니다.",
+    "keywords": [
+      "친절",
+      "상담",
+      "신뢰",
+      "청결",
+      "대기시간"
+    ],
+    "procedures": [
+      {
+        "name": "성형 상담",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "수술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 105,
+    "hospital_name": "바노바기성형외과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "가성비가 뛰어나고 결과가 좋다는 평이 많습니다. 거상 전문으로 신뢰할 수 있는 원장님이 계십니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "가성비",
+      "거상전문",
+      "신뢰",
+      "결과좋음",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "이마거상",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "안면거상",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 106,
+    "hospital_name": "더플랜성형외과",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 원장님과 친절한 직원들 덕분에 만족스러운 경험을 했습니다. 통증이 적고 결과도 자연스럽습니다. 종합적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "자연스러움",
+      "만족도",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "안면윤곽",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "양악수술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "코 수술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미니거상",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쌍꺼풀수술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "지방이식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "초고속리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "에르메스 주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 107,
+    "hospital_name": "압구정페이스라인 성형외과의원",
+    "review_count": 14
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 고급스러운 시설이 인상적입니다. 가격이 합리적이며 시술 효과도 만족스럽습니다. 전반적으로 긍정적인 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "고급스러움",
+      "합리적 가격",
+      "시술 효과",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "줄기세포",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인중축소",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 108,
+    "hospital_name": "더리젠성형외과의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "전반적으로 보통 수준의 경험. 가격과 대기 시간이 평균적이며, 청결도와 직원 친절도도 무난함.",
+    "keywords": [
+      "가로수길",
+      "디저트",
+      "프렌치와플",
+      "청결",
+      "친절"
+    ],
+    "procedures": [
+      {
+        "name": "버터떡",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "프렌치 와플",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 109,
+    "hospital_name": "베스트웰김진왕성형외과의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "맛있는 음식과 친절한 서비스가 장점입니다. 웨이팅이 있을 수 있으며, 가격은 합리적입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "맛집",
+      "친절",
+      "합리적가격",
+      "웨이팅",
+      "푸짐한양"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 110,
+    "hospital_name": "아이러브피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_111에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 111,
+    "hospital_name": "Hospital_111",
+    "review_count": 0
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "맛있는 생면파스타와 친절한 서비스가 돋보이는 곳입니다. 공간이 협소한 점은 아쉬우나, 가격 대비 만족도가 높습니다.",
+    "keywords": [
+      "생면파스타",
+      "가성비",
+      "친절한 서비스",
+      "청결",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "생면파스타",
+        "price_range": "가격대 정보없음"
+      },
+      {
+        "name": "리조또",
+        "price_range": "가격대 정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 112,
+    "hospital_name": "레디피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "원장님과 직원들이 매우 친절하고 꼼꼼한 시술로 높은 만족도를 보임. 양심적인 진료와 정성스러운 치료가 장점. 전반적으로 좋은 평가를 받는 의원.",
+    "keywords": [
+      "친절",
+      "꼼꼼한시술",
+      "양심적",
+      "주사잘함",
+      "피부개선"
+    ],
+    "procedures": [
+      {
+        "name": "주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 113,
+    "hospital_name": "뷰티라운지의원 방배점",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "비건 음식의 맛이 뛰어나고 양이 많아 만족스럽지만, 대기 시간이 다소 길고 청결 상태는 보통입니다.",
+    "keywords": [
+      "비건",
+      "맛집",
+      "양 많음",
+      "건강식",
+      "재방문"
+    ],
+    "procedures": [
+      {
+        "name": "비건 파스타",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "비건 피자",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 114,
+    "hospital_name": "그리니피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "친절한 직원들이 있지만 일부 의사들의 불친절한 태도가 문제. 가격은 다소 비쌈. 전반적으로 시술 효과는 좋음.",
+    "keywords": [
+      "친절",
+      "불친절",
+      "비용",
+      "효과",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "사마귀 제거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "겨드랑이 제모",
+        "price_range": "7만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 115,
+    "hospital_name": "강한피부과의원 교대점",
+    "review_count": 13
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "전반적으로 친절한 진료와 적절한 치료가 이루어지지만, 일부 환자는 불친절함을 느꼈습니다. 대체로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "진료",
+      "치료",
+      "불친절",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "일반진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "사마귀 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 116,
+    "hospital_name": "마이디피부과의원 양재점",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "친절한 의료진과 깔끔한 병원 환경이 장점입니다. 일부 직원의 대응이 아쉬웠던 점도 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "청결",
+      "추천",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 117,
+    "hospital_name": "메디셀플러스의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "대기 시간이 길고 친절함이 부족하다는 리뷰가 많음. 치료 효과는 긍정적이나 전반적인 응대는 아쉬움.",
+    "keywords": [
+      "대기시간",
+      "친절도",
+      "치료효과",
+      "불만족",
+      "재방문안함"
+    ],
+    "procedures": [
+      {
+        "name": "피부질환 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "사마귀 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 118,
+    "hospital_name": "국홍일국정표피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 청결한 시설이 장점입니다. 가격이 저렴하고 과잉진료가 없습니다. 전반적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "저렴",
+      "과잉진료없음",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 119,
+    "hospital_name": "루비의원 양재점",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "과일 디저트가 주인공인 카페로, 다양한 메뉴가 매력적이다. 하지만 가격대와 대기 시간이 보통 수준이다.",
+    "keywords": [
+      "과일",
+      "디저트",
+      "카페",
+      "양재",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "프렌치토스트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "후르츠산도",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 120,
+    "hospital_name": "리마인드피부과의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "친절한 의사와 꼼꼼한 진료가 장점이나 대기시간과 가격에 대한 불만이 존재합니다. 전반적으로 보통 수준의 피부과입니다.",
+    "keywords": [
+      "친절",
+      "꼼꼼",
+      "대기시간",
+      "가격",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "주사치료",
+        "price_range": "14000원"
+      },
+      {
+        "name": "IPL 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 121,
+    "hospital_name": "서아송피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절한 직원과 효과적인 시술이 인상적입니다. 다만 대기 시간이 보통 수준입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "비용",
+      "청결",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "지방분해주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피팅 레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 122,
+    "hospital_name": "핑슬림의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 2,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "전문적인 진단 능력을 갖춘 피부과이나 의사의 성의 없는 진료와 과도한 상품 판매로 인한 불만이 많습니다. 환자 말을 끝까지 듣지 않고 빠르게 진료를 마치려는 태도와 비쌀뿐만 아니라 불필요한 시술을 권유하는 점이 주요 단점입니다.",
+    "keywords": [
+      "불친절",
+      "과잉진료",
+      "비싼가격",
+      "성의부족",
+      "상품판매"
+    ],
+    "procedures": [
+      {
+        "name": "여드름흉터/흉터레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "알라딘필",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름관리",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "염증주사",
+        "price_range": "저가"
+      },
+      {
+        "name": "압출",
+        "price_range": "저가"
+      },
+      {
+        "name": "사마귀레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 123,
+    "hospital_name": "양재오라클피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 2,
+    "summary": "강렬한 맛의 고품질 패티가 특징이며 패티멜트와 버팔로윙 등 메뉴가 우수합니다. 다만 가격이 높고 대기시간이 길며, 직원 서비스와 테이블 관리가 개선이 필요합니다. 미국식 정통 버거를 원하는 마니아층에게는 강력 추천이지만 일반인에게는 진입장벽이 있습니다.",
+    "keywords": [
+      "정통 미국식 버거",
+      "육즙 많은 패티",
+      "짭짤한 맛",
+      "웨이팅 필수",
+      "느끼한 편"
+    ],
+    "procedures": [
+      {
+        "name": "패티멜트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "치즈버거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어니언링",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "머쉬룸버거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "버팔로윙",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "원스타디럭스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 124,
+    "hospital_name": "엘스타의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "원장의 진료는 꼼꼼하고 성실하다는 평가가 있으나, 스태프의 불친절한 태도와 무례한 응대가 문제점으로 지적된다. 피부과 시술 대응은 괜찮으나 서비스 개선이 필요하다.",
+    "keywords": [
+      "꼼꼼한진료",
+      "불친절한스태프",
+      "교육필요",
+      "피부트러블",
+      "접근성좋음"
+    ],
+    "procedures": [
+      {
+        "name": "피부 트러블 진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 125,
+    "hospital_name": "프레쉬테마의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원들과 맛있는 음식이 장점이나, 가격이 비싸고 대기 시간이 길어 불편함이 있음. 종합적으로 만족스러운 경험.",
+    "keywords": [
+      "친절",
+      "맛있음",
+      "비쌈",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "중국식 샤브샤브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 126,
+    "hospital_name": "프라이즈피부과의원",
+    "review_count": 15
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "육즙 풍부하고 패티 품질이 뛰어난 프리미엄 버거 전문점이나 높은 가격대와 강한 염도, 긴 대기시간이 단점. 패티멜트 등 시그니처 메뉴는 호평이지만 맛의 호불호가 갈리는 편.",
+    "keywords": [
+      "고기육즙",
+      "패티멜트",
+      "비싼가격",
+      "긴대기",
+      "염도높음"
+    ],
+    "procedures": [
+      {
+        "name": "패티멜트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "치즈버거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "머쉬룸버거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어니언링",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "원스타디럭스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 127,
+    "hospital_name": "더셀피부과의원 강남본점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "원장님은 친절하고 실력이 있지만, 직원들의 불친절과 높은 가격이 단점입니다. 대기 시간이 길어 불편함을 느낄 수 있습니다.",
+    "keywords": [
+      "친절한 원장",
+      "불친절한 직원",
+      "비싼 가격",
+      "긴 대기시간",
+      "효과 없음"
+    ],
+    "procedures": [
+      {
+        "name": "다크서클 시술",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "눈밑지방재배치",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 128,
+    "hospital_name": "예미원피부과의원",
+    "review_count": 7
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "진료 시간이 짧고 대기 시간은 적지만, 의사와 직원의 불친절함이 두드러진다. 전반적으로 실망스러운 경험.",
+    "keywords": [
+      "불친절",
+      "짧은 대기",
+      "실망",
+      "비용",
+      "진료"
+    ],
+    "procedures": [
+      {
+        "name": "진료",
+        "price_range": "47,320원 - 110,000원"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 129,
+    "hospital_name": "함익병피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "버거 맛은 좋지만 가격이 비싸고 대기 시간이 길어 불편함이 있다. 직원 서비스는 개선이 필요하다.",
+    "keywords": [
+      "버거",
+      "대기시간",
+      "가격",
+      "맛",
+      "서비스"
+    ],
+    "procedures": [
+      {
+        "name": "패티멜트",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "치즈버거",
+        "price_range": "비쌈"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 130,
+    "hospital_name": "리더스피부과 강남도곡점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깨끗한 환경이 장점입니다. 대기 시간이 다소 길고 시술의 통증이 걱정되지만, 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "편안한 분위기",
+      "자연스러운 결과",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "실리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "슈링크",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "슈링크유니버스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 131,
+    "hospital_name": "안티에이징의원",
+    "review_count": 11
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님의 세심한 시술이 인상적입니다. 대기 시간이 길었던 점은 아쉬움으로 남습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "세심한 시술",
+      "편안한 관리",
+      "대기시간",
+      "고급스러운 인테리어"
+    ],
+    "procedures": [
+      {
+        "name": "눈썹펌",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 132,
+    "hospital_name": "르모아의원",
+    "review_count": 11
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "맛있는 해장국과 곱창전골이 인기지만 가격이 비싸고 대기 시간이 길다. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "해장국",
+      "곱창전골",
+      "맛집",
+      "비싼가격",
+      "푸짐한양"
+    ],
+    "procedures": [
+      {
+        "name": "해장국",
+        "price_range": "1.4만원 이상"
+      },
+      {
+        "name": "곱창전골",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 133,
+    "hospital_name": "제이유피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 피부과 진료를 제공하는 곳으로, 친절한 원장님과 좋은 치료 효과가 장점입니다. 다만, 치료 기간이 길어질 수 있습니다.",
+    "keywords": [
+      "전문진료",
+      "친절한원장",
+      "주말진료",
+      "피부치료",
+      "믿음직한"
+    ],
+    "procedures": [
+      {
+        "name": "피부 보험진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미용시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 134,
+    "hospital_name": "대치수피부과의원",
+    "review_count": 8
+  },
+  {
+    "price_score": 4,
+    "pain_score": 2,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "친절한 직원과 깔끔한 병원이 장점이나, 시술 중 불안감과 피부 자극이 단점으로 지적됨. 전반적으로 괜찮은 경험.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "시술",
+      "관리",
+      "피부"
+    ],
+    "procedures": [
+      {
+        "name": "아이여드름관리",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "올리지오",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 135,
+    "hospital_name": "뷰티라운지의원 대치",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 원장님과 직원들이 있지만 대기 시간이 길다는 단점이 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "시술",
+      "상담",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저 리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 136,
+    "hospital_name": "타임리스피부과의원 도곡점",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "버거 맛은 좋지만 가격이 비싸고 대기 시간이 길며 직원 친절도가 낮음. 전반적으로 맛과 서비스 개선이 필요.",
+    "keywords": [
+      "버거",
+      "대기시간",
+      "가격",
+      "친절도",
+      "맛"
+    ],
+    "procedures": [
+      {
+        "name": "패티멜트",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "치즈버거",
+        "price_range": "비쌈"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 137,
+    "hospital_name": "디파인피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "원장님은 친절하지만 대기 시간이 길고 직원의 불친절함이 문제. 가격도 비싼 편으로, 전반적으로 만족도가 낮음.",
+    "keywords": [
+      "대기시간",
+      "친절한 원장",
+      "불친절한 직원",
+      "비싼 가격",
+      "피부 진료"
+    ],
+    "procedures": [
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "처방전 발급",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 138,
+    "hospital_name": "지아인의원",
+    "review_count": 7
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "새로 생긴 피부과로 원장님이 친절하고 상담이 좋았지만, 시술 후 부작용이 발생했습니다. 종합적으로 보통 수준입니다.",
+    "keywords": [
+      "피부과",
+      "여드름",
+      "상담",
+      "부작용",
+      "친절"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 염증주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "상담",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 139,
+    "hospital_name": "삼성화이트피부과",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_140에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 140,
+    "hospital_name": "Hospital_140",
+    "review_count": 0
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "버거 맛은 뛰어나지만 가격이 비싸고 대기 시간이 길어 불편함이 있다. 전반적으로 맛은 좋으나 서비스와 대기 문제는 개선이 필요하다.",
+    "keywords": [
+      "버거",
+      "맛있음",
+      "비쌈",
+      "대기시간",
+      "서비스"
+    ],
+    "procedures": [
+      {
+        "name": "패티멜트",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "치즈버거",
+        "price_range": "비쌈"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 141,
+    "hospital_name": "에르시아 클리닉",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "맛있는 해장국과 곱창전골이지만 가격이 비싸고 대기 시간이 길다. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "해장국",
+      "곱창전골",
+      "맛집",
+      "비싸다",
+      "푸짐하다"
+    ],
+    "procedures": [
+      {
+        "name": "해장국",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "곱창전골",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 142,
+    "hospital_name": "맑은미피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "탈모 치료에 효과적이며 친절한 직원들이 인상적입니다. 그러나 가격이 다소 비쌉니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "탈모",
+      "친절",
+      "효과적",
+      "비용",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "탈모 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "반영구 아이라인 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 143,
+    "hospital_name": "멘토의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절한 직원과 원장님이 있는 피부과. 가격에 대한 불만이 있으나 과잉진료는 없고 설명이 친절함. 종합적으로 추천할 만한 곳.",
+    "keywords": [
+      "친절",
+      "과잉진료 없음",
+      "신뢰",
+      "피부질환",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "16700원"
+      },
+      {
+        "name": "아토피 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 144,
+    "hospital_name": "김혜영피부과의원",
+    "review_count": 12
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 5,
+    "cleanliness_score": 2,
+    "staff_score": 3,
+    "summary": "가성비가 좋고 맛있는 순대국을 제공하지만 위생 상태가 좋지 않음. 대기 시간은 짧고 직원들은 보통 수준.",
+    "keywords": [
+      "가성비",
+      "위생",
+      "순대국",
+      "대기시간",
+      "맛"
+    ],
+    "procedures": [
+      {
+        "name": "순대국",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "수육",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 145,
+    "hospital_name": "리피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "의사의 전문성과 친절한 직원들이 장점입니다. 그러나 가격이 비싸고 원장님의 태도가 불만족스러울 수 있습니다. 종합적으로는 보통 수준입니다.",
+    "keywords": [
+      "보톡스",
+      "필러",
+      "친절",
+      "전문성",
+      "비용"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "60만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 146,
+    "hospital_name": "닥터로빈의원",
+    "review_count": 9
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 전문적인 시술로 만족도가 높습니다. 가격이 다소 있지만 효과가 뛰어납니다. 종합적으로 추천할 만한 피부과입니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "효과적",
+      "가격대비",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "슬림넥주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "포텐자콜라스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "슈링크",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라피프라임",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "민트실리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 147,
+    "hospital_name": "청담밴스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "음식의 맛과 분위기는 좋지만 가격대비 가성비가 아쉬움. 직원들은 친절하고 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "맛집",
+      "가성비",
+      "분위기",
+      "친절",
+      "양식"
+    ],
+    "procedures": [
+      {
+        "name": "코스요리",
+        "price_range": "5.8만원"
+      },
+      {
+        "name": "전복리조또",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 148,
+    "hospital_name": "모델로피부과의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전문성과 친절한 서비스가 돋보이는 병원입니다. 대기 시간은 보통이며, 가격은 다소 비쌀 수 있습니다. 종합적으로 믿고 방문할 수 있는 곳입니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "편안함",
+      "효과적",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "눈밑지방재건술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "표정주름(보톡스)",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "진피재생주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "이래비티레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 149,
+    "hospital_name": "청담이엘피부과의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전문적인 피부과 진료를 받을 수 있는 곳. 친절한 직원들이 인상적이며, 가격 정보는 부족함.",
+    "keywords": [
+      "피부과",
+      "전문의",
+      "친절",
+      "진료",
+      "피부병"
+    ],
+    "procedures": [
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미용 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 150,
+    "hospital_name": "리더스피부과의원 청담점",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전문적인 진료와 친절한 직원이 장점입니다. 대기 시간이 길고 일부 의사는 불친절할 수 있습니다. 전반적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "사마귀",
+      "친절",
+      "전문성",
+      "대기시간",
+      "피부질환"
+    ],
+    "procedures": [
+      {
+        "name": "사마귀 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "주사 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 151,
+    "hospital_name": "휴피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "가격이 저렴하고 맛도 괜찮은 편입니다. 그러나 발렛비와 대기시간이 아쉬운 점입니다. 전반적으로 보통 수준의 식당입니다.",
+    "keywords": [
+      "가성비",
+      "김치찌개",
+      "청담",
+      "식당",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "김치찌개",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제육볶음",
+        "price_range": "8천원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 152,
+    "hospital_name": "하이즈앳의원 본관",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 꼼꼼한 진료가 장점입니다. 가격과 통증에 대한 언급은 없지만 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "꼼꼼한 진료",
+      "만족",
+      "피부",
+      "쁘띠"
+    ],
+    "procedures": [
+      {
+        "name": "피부 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쁘띠 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 153,
+    "hospital_name": "브랜뉴의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "직원 불친절이 가장 큰 단점이며, 전반적으로 보통 수준의 경험이었습니다.",
+    "keywords": [
+      "불친절",
+      "보통",
+      "경험",
+      "치킨",
+      "주관적"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 154,
+    "hospital_name": "닥터이레이저피부과의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "전반적으로 분위기와 직원 친절도가 좋지만, 가격 대비 맛과 가성비는 아쉬움이 남는다. 특정 메뉴는 인상적이지만 일관성이 부족하다.",
+    "keywords": [
+      "맛집",
+      "가성비",
+      "분위기",
+      "친절",
+      "메뉴"
+    ],
+    "procedures": [
+      {
+        "name": "코스요리",
+        "price_range": "5.8만원"
+      },
+      {
+        "name": "전복리조또",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 155,
+    "hospital_name": "스킨메디피부과의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "육회비빔밥이 매우 맛있고 품질이 좋지만 가격이 비쌈. 대기 시간이 있을 수 있으며 서비스는 보통 수준.",
+    "keywords": [
+      "육회비빔밥",
+      "맛집",
+      "비쌈",
+      "대기",
+      "청담동"
+    ],
+    "procedures": [
+      {
+        "name": "육회비빔밥",
+        "price_range": "21000원"
+      },
+      {
+        "name": "갈비탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 156,
+    "hospital_name": "셀나인청담의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "직원 불친절이 가장 큰 단점이며, 전반적으로 보통 수준의 경험이었습니다.",
+    "keywords": [
+      "불친절",
+      "보통",
+      "경험",
+      "치킨",
+      "주관적"
+    ],
+    "procedures": [
+      {
+        "name": "치킨",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 157,
+    "hospital_name": "이오클리닉",
+    "review_count": 3
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 쾌적한 환경이 장점입니다. 가격은 합리적이며, 시술 효과도 만족스럽습니다. 종합적으로 추천할 만한 피부과입니다.",
+    "keywords": [
+      "여드름치료",
+      "레이저",
+      "친절",
+      "청결",
+      "효과적"
+    ],
+    "procedures": [
+      {
+        "name": "여드름치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 158,
+    "hospital_name": "오가나셀 피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "실장님의 친절함이 돋보이는 곳. 가격과 대기 시간은 보통. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "친절",
+      "만족",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 159,
+    "hospital_name": "리엔델클리닉",
+    "review_count": 1
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "합리적인 가격대(11,000원)에 만족도 높은 시술 결과를 제공합니다. 사장님의 친절한 태도가 인상적이며, 전문성 있는 서비스로 평가받고 있습니다.",
+    "keywords": [
+      "합리적가격",
+      "친절한스태프",
+      "만족도높음",
+      "추천",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "피부시술",
+        "price_range": "11,000원"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 160,
+    "hospital_name": "잠실고운세상피부과의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절한 직원과 깔끔한 시설이 장점입니다. 일부 시술에서는 가격 대비 만족도가 낮을 수 있습니다. 종합적으로 신뢰할 수 있는 피부과입니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "신뢰",
+      "시술",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "포텐자 콜라스터 PDRN",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "글래스스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "입술필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "카프리 레이져",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피코지우개",
+        "price_range": "10만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 161,
+    "hospital_name": "밴스의원 잠실",
+    "review_count": 20
+  },
+  {
+    "price_score": 5,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "합리적인 가격(11,000원)에 품질 좋은 서비스를 제공합니다. 사장님의 친절한 서비스가 돋보이며, 어려운 환경에서도 성실하게 운영 중입니다.",
+    "keywords": [
+      "저렴한가격",
+      "친절한스태프",
+      "우수한결과",
+      "신뢰성",
+      "성실함"
+    ],
+    "procedures": [
+      {
+        "name": "주요시술",
+        "price_range": "11,000원"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 162,
+    "hospital_name": "닥터에버스의원 잠실점",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전문적인 진료와 친절한 직원들이 인상적입니다. 쾌적한 환경에서 대기 시간도 짧아 만족스러웠습니다. 전반적으로 추천할 만한 피부과입니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "쾌적한환경",
+      "대기시간짧음",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "피부촬영",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "잡티치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 163,
+    "hospital_name": "오가나셀피부과의원 잠실점",
+    "review_count": 6
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_164에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 164,
+    "hospital_name": "Hospital_164",
+    "review_count": 0
+  },
+  {
+    "price_score": 5,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 2,
+    "staff_score": 4,
+    "summary": "가격 대비 맛이 뛰어난 오마카세로, 예약이 어려운 점이 단점입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "오마카세",
+      "맛집",
+      "가성비",
+      "예약어려움",
+      "청결문제"
+    ],
+    "procedures": [
+      {
+        "name": "오마카세",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "런치코스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 165,
+    "hospital_name": "블리비의원 잠실점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "딸기 케이크의 맛은 좋지만 가격이 비싸고 대기 시간이 길어 불편함이 있음. 전반적으로 맛있지만 재방문 여부는 고민.",
+    "keywords": [
+      "딸기케이크",
+      "비싸다",
+      "대기시간",
+      "맛있다",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "1호 케이크",
+        "price_range": "4만8천원"
+      },
+      {
+        "name": "미니 케이크",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 166,
+    "hospital_name": "뷰티라운지의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "가격이 저렴하고 맛있는 메뉴가 많지만, 직원의 불친절함이 아쉬움. 전반적으로 무난한 경험.",
+    "keywords": [
+      "저렴",
+      "맛있음",
+      "무난함",
+      "불친절",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "도삭면",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라크림새우",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 167,
+    "hospital_name": "유앤아이의원 잠실점",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "전문의의 세심한 설명과 친절한 직원이 장점이나, 예약이 필수인 점과 대기 시간이 길어 불편함이 있음.",
+    "keywords": [
+      "전문의",
+      "친절",
+      "예약필수",
+      "대기시간",
+      "피부미용"
+    ],
+    "procedures": [
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부미용",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 168,
+    "hospital_name": "잠실온피부과의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 5,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 상담과 꼼꼼한 시술로 높은 만족도를 보이는 피부과입니다. 제모, 보톡스, 필러 등 다양한 시술에서 좋은 평가를 받고 있으며, 대기 시간이 거의 없고 시설이 쾌적합니다. 다만 가격이 다소 높다는 평가가 있고 소수 의견으로 전문성을 의심하는 리뷰도 존재합니다.",
+    "keywords": [
+      "친절한상담",
+      "꼼꼼한시술",
+      "대기없음",
+      "효과좋음",
+      "쾌적한환경"
+    ],
+    "procedures": [
+      {
+        "name": "제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 169,
+    "hospital_name": "아름다움을써내려가다에피소드의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님 덕분에 편안한 시술 경험을 했습니다. 가격 정보는 부족하지만 전반적으로 긍정적인 평가입니다.",
+    "keywords": [
+      "친절",
+      "편안함",
+      "관리",
+      "피부과",
+      "톤즈"
+    ],
+    "procedures": [
+      {
+        "name": "온다 포텐자",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 170,
+    "hospital_name": "톤즈의원 잠실점",
+    "review_count": 2
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 직원과 효과적인 시술이 장점이나, 가격이 비싸고 일부 시술 결과에 대한 불만이 존재합니다. 종합적으로는 추천할 만한 피부과입니다.",
+    "keywords": [
+      "친절",
+      "비싸다",
+      "효과적",
+      "관리잘함",
+      "시술결과"
+    ],
+    "procedures": [
+      {
+        "name": "토닝",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저 잡티제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 171,
+    "hospital_name": "예안피부과의원",
+    "review_count": 11
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 합리적인 가격이 장점. 시술에 대한 꼼꼼함이 부족한 경우도 있음. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "시술",
+      "청결",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "점 제거",
+        "price_range": "3천원~1만원"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 172,
+    "hospital_name": "에스준의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "의사와 치료 기술은 좋지만, 직원의 불친절과 대기 시간이 길어 환자 경험이 나쁨. 전반적으로 개선이 필요함.",
+    "keywords": [
+      "친절한 의사",
+      "불친절한 직원",
+      "긴 대기시간",
+      "비싼 진료비",
+      "불만족"
+    ],
+    "procedures": [
+      {
+        "name": "신경치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "임플란트",
+        "price_range": "수백만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 173,
+    "hospital_name": "스마트의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "맛있는 음식과 친절한 직원이 장점이나 긴 웨이팅이 단점입니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "맛집",
+      "웨이팅",
+      "친절",
+      "청결",
+      "다양한메뉴"
+    ],
+    "procedures": [
+      {
+        "name": "명란막국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "수비드 안심수육",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 174,
+    "hospital_name": "메이퓨어의원 잠실점",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "메디라인의원은 청결하고 친절한 직원들이 있는 병원입니다. 그러나 대기 시간이 길고 가격이 다소 비쌉니다. 전반적으로 만족스러운 경험을 제공합니다.",
+    "keywords": [
+      "청결",
+      "친절",
+      "대기시간",
+      "가격",
+      "효과"
+    ],
+    "procedures": [
+      {
+        "name": "코조각주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "콧볼보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 175,
+    "hospital_name": "메디라인의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "전반적으로 합리적인 가격과 실력 있는 원장님이 장점입니다. 시술 중 피로감이 느껴질 수 있으며, 초진 예약 대기가 길어 불편할 수 있습니다. 종합적으로 추천할 만한 의원입니다.",
+    "keywords": [
+      "합리적가격",
+      "실력좋은원장",
+      "피로감",
+      "과잉진료없음",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 176,
+    "hospital_name": "서울크리스탈의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 2,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 맛있는 음식이 장점이나 비싼 가격과 긴 대기 시간이 단점입니다. 종합적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "맛있음",
+      "비쌈",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "중국식 샤브샤브",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 177,
+    "hospital_name": "타임리스피부과의원 교대점",
+    "review_count": 15
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "전문성과 친절함이 돋보이는 피부과지만, 불친절한 경험도 일부 환자에게 보고됨. 전반적으로 치료 효과는 긍정적.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "치료",
+      "피부질환",
+      "알러지"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 압출",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "알러지 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 178,
+    "hospital_name": "에세이피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 친절한 직원과 깔끔한 시설이 장점입니다. 그러나 예약 시스템과 일부 직원의 태도에서 아쉬움이 있습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "예약",
+      "시술",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "흑자 리팟레이저",
+        "price_range": "300만원 이상"
+      },
+      {
+        "name": "피지관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 179,
+    "hospital_name": "봄스피부과",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "원장님과 간호사들은 친절하지만, 카운터 직원의 불친절이 문제로 지적됨. 전반적으로 보통 수준의 병원.",
+    "keywords": [
+      "친절",
+      "불친절",
+      "보톡스",
+      "인모드",
+      "주차"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 180,
+    "hospital_name": "지젤의원",
+    "review_count": 12
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "합리적인 가격과 친절한 직원들이 있어 편안하게 진료받을 수 있는 곳입니다. 대기 시간도 짧고 청결한 환경이 장점입니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "합리적",
+      "전문성",
+      "편안함"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리투오",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 181,
+    "hospital_name": "연세청아린의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "맛있고 푸짐한 식사로 만족도가 높습니다. 다만 대기 시간이 있을 수 있습니다. 전반적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "맛집",
+      "점심",
+      "푸짐한식사",
+      "친절한서비스",
+      "편안한분위기"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 182,
+    "hospital_name": "연세셀즈의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님 덕분에 치료 효과가 좋습니다. 대기 시간이 길고 가격대가 조금 높은 편입니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "전문적",
+      "대기시간",
+      "가격대"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "기미 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리니어 리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "루비 레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란 주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 183,
+    "hospital_name": "서울에스클리닉",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "칼국수와 만두가 맛있고 재방문 의사가 높음. 김치와 국물 맛은 호불호가 갈릴 수 있음. 전반적으로 무난한 맛집.",
+    "keywords": [
+      "칼국수",
+      "만두",
+      "맛집",
+      "재방문",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "칼국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 184,
+    "hospital_name": "YK 박윤기피부과의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "맛있는 칼국수와 만두가 특징인 맛집. 국물 맛이 아쉬운 점이 있으나 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "칼국수",
+      "만두",
+      "맛집",
+      "청결",
+      "친절"
+    ],
+    "procedures": [
+      {
+        "name": "칼국수",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 185,
+    "hospital_name": "모에코의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "맛있는 음식과 친절한 서비스가 돋보이는 곳입니다. 다소 대기시간이 있지만, 가격대비 만족스러운 식사 경험을 제공합니다.",
+    "keywords": [
+      "맛집",
+      "점심",
+      "친절",
+      "푸짐한 양",
+      "술안주"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 186,
+    "hospital_name": "정명덕피부과",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절하고 꼼꼼한 진료로 환자 만족도가 높습니다. 다만, 알러지 검사에서 어려움이 있었던 경험이 있습니다. 종합적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "꼼꼼한 진료",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "알러지 검사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 187,
+    "hospital_name": "서정피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "가성비 좋은 맛집으로, 친절한 서비스와 맛있는 떡볶이가 특징입니다. 단, 간이 강한 편입니다.",
+    "keywords": [
+      "가성비",
+      "친절",
+      "추억의맛",
+      "떡볶이",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "짜장떡볶이",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쫄볶이",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 188,
+    "hospital_name": "아름다운피부과",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "고급스러운 분위기와 친절한 서비스가 인상적입니다. 가격대가 있지만 음식의 퀄리티가 뛰어납니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "고급스러움",
+      "친절한 서비스",
+      "맛있는 장어",
+      "청결한 매장",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "장어구이",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "런치정식",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 189,
+    "hospital_name": "연세스타피부과 강남점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전문성과 친절함이 돋보이는 피부과입니다. 대기 시간이 길고 예약이 필수인 점은 단점입니다. 종합적으로 만족스러운 경험을 제공합니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "대기시간",
+      "예약필수",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "탈모 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "미용 시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 190,
+    "hospital_name": "이은피부과",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "맛있는 생면파스타와 친절한 서비스가 돋보이는 곳입니다. 공간이 협소한 점이 아쉬우나, 가격대비 만족도가 높습니다.",
+    "keywords": [
+      "생면파스타",
+      "가성비",
+      "친절한 서비스",
+      "깔끔한 주방",
+      "아늑한 분위기"
+    ],
+    "procedures": [
+      {
+        "name": "생면파스타",
+        "price_range": "합리적"
+      },
+      {
+        "name": "리조또",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 191,
+    "hospital_name": "플로레스피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "맛있는 생면파스타와 친절한 서비스가 돋보이는 곳입니다. 공간이 협소하여 예약이 필수입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "생면파스타",
+      "친절한 서비스",
+      "맛집",
+      "가성비",
+      "아늑한 분위기"
+    ],
+    "procedures": [
+      {
+        "name": "생면파스타",
+        "price_range": "가격대정보없음"
+      },
+      {
+        "name": "리조또",
+        "price_range": "가격대정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 192,
+    "hospital_name": "비브톤의원 사당이수",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깔끔한 시설이 장점입니다. 대기시간이 짧고 시술도 아프지 않게 잘 진행됩니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "대기시간",
+      "시술",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "스킨보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "입술필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 193,
+    "hospital_name": "라셀의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절하고 꼼꼼한 진료가 인상적입니다. 대기 시간과 청결도는 보통 수준입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "진료",
+      "사마귀",
+      "상담",
+      "배려"
+    ],
+    "procedures": [
+      {
+        "name": "사마귀 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 194,
+    "hospital_name": "이정훈의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 5,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 청결한 환경에서 시술을 받을 수 있는 곳입니다. 가격이 합리적이며, 대기 시간이 짧아 편리합니다. 단, 전화 상담 시 불친절한 경험이 있었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "빠른대기",
+      "합리적가격",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "스킨보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "민트실",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "점빼기",
+        "price_range": "11,000원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 195,
+    "hospital_name": "뷰티스톤의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전문성이 높고 친절한 직원들이 인상적입니다. 그러나 대기 시간이 길고 진료 마감 시간이 불명확합니다. 전반적으로 좋은 경험이었습니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "대기시간",
+      "진료",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 진료",
+        "price_range": "2.5만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 196,
+    "hospital_name": "미소연피부과의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "아인슈페너와 태양라떼가 인기 있는 카페. 가격 대비 퀄리티가 준수하나 자리 부족이 단점. 전반적으로 맛있고 분위기가 좋음.",
+    "keywords": [
+      "아인슈페너",
+      "태양라떼",
+      "커피",
+      "맛집",
+      "분위기"
+    ],
+    "procedures": [
+      {
+        "name": "아인슈페너",
+        "price_range": "5000원"
+      },
+      {
+        "name": "태양라떼",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 197,
+    "hospital_name": "에센셜의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "아인슈페너와 태양라떼가 인기 있는 카페로, 맛은 좋지만 자리 부족이 단점입니다. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "아인슈페너",
+      "태양라떼",
+      "커피",
+      "맛집",
+      "분위기"
+    ],
+    "procedures": [
+      {
+        "name": "아인슈페너",
+        "price_range": "5000원"
+      },
+      {
+        "name": "태양라떼",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 198,
+    "hospital_name": "이나영피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 원장님의 뛰어난 실력이 돋보이는 병원입니다. 시설이 다소 노후화된 점이 아쉽지만, 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "전문성",
+      "시설노후",
+      "진료"
+    ],
+    "procedures": [
+      {
+        "name": "피부염 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "대상포진 진단",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 199,
+    "hospital_name": "김명애피부과의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "아인슈페너와 태양라떼가 인기 있는 카페로, 맛은 좋지만 자리 부족이 단점입니다. 가격대비 퀄리티는 준수합니다.",
+    "keywords": [
+      "아인슈페너",
+      "태양라떼",
+      "커피",
+      "맛집",
+      "좌석부족"
+    ],
+    "procedures": [
+      {
+        "name": "아인슈페너",
+        "price_range": "5000원"
+      },
+      {
+        "name": "태양라떼",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 200,
+    "hospital_name": "메리트피부과",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "맛있는 장어덮밥으로 유명한 맛집입니다. 가격이 합리적이고 청결하며 직원들이 친절합니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "장어덮밥",
+      "맛집",
+      "친절",
+      "청결",
+      "가족"
+    ],
+    "procedures": [
+      {
+        "name": "장어덮밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "눈꽃set",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 201,
+    "hospital_name": "딜라이트피부과의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "음식 맛은 무난하지만 가격이 다소 비쌈. 직원들은 친절하나 대기 시간이 길어 불편할 수 있음.",
+    "keywords": [
+      "맛있음",
+      "친절",
+      "대기시간",
+      "가격",
+      "무난"
+    ],
+    "procedures": [
+      {
+        "name": "돈까스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "오므라이스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 202,
+    "hospital_name": "센트럴시티의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 전문적인 시술이 장점입니다. 가격 정보는 없지만, 대체로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "부산",
+      "청담",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 203,
+    "hospital_name": "미엘르의원",
+    "review_count": 1
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "시설이 깔끔하고 직원들이 친절합니다. 시술 결과에 대한 만족도가 높습니다. 전반적으로 추천할 만한 클리닉입니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "만족",
+      "시술",
+      "재방문"
+    ],
+    "procedures": [
+      {
+        "name": "온다리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어깨 필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 204,
+    "hospital_name": "영영영의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 고급스러운 환경이 장점. 시술 효과에 대한 만족도가 높음. 종합적으로 추천할 만한 피부과.",
+    "keywords": [
+      "친절",
+      "고급스러움",
+      "만족",
+      "효과적",
+      "디테일한 상담"
+    ],
+    "procedures": [
+      {
+        "name": "온다리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 205,
+    "hospital_name": "신세계안피부과의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "전반적으로 친절한 의료진과 좋은 시술 결과가 있지만, 대기 시간이 길고 가격이 다소 비쌈. 상담이 자세하고 신뢰할 수 있는 병원.",
+    "keywords": [
+      "친절",
+      "상담",
+      "대기시간",
+      "비용",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "덴서티",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "색소치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 206,
+    "hospital_name": "김연진의 퓨린피부과의원",
+    "review_count": 15
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "음식 맛이 좋고 분위기도 괜찮지만, 가격이 다소 비싸고 일부 직원의 친절도가 아쉬움. 전반적으로 무난한 경험.",
+    "keywords": [
+      "맛있음",
+      "친절",
+      "비싸다",
+      "무난함",
+      "분위기"
+    ],
+    "procedures": [
+      {
+        "name": "돈까스",
+        "price_range": "비싼편"
+      },
+      {
+        "name": "오므라이스",
+        "price_range": "비싼편"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 207,
+    "hospital_name": "더아름다운의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 시술과 친절한 직원들이 인상적입니다. 가격도 합리적이며, 대기 시간이 보통입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "전문성",
+      "친절",
+      "합리적가격",
+      "효과적",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 시술",
+        "price_range": "합리적"
+      },
+      {
+        "name": "피부 상담",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 208,
+    "hospital_name": "얼라이브피부과 의원 반포본점",
+    "review_count": 5
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "음식 맛은 무난하지만 가격이 다소 비쌈. 직원들은 친절하나 일부는 불친절함. 전반적으로 괜찮은 경험.",
+    "keywords": [
+      "맛있음",
+      "친절한 직원",
+      "가격 비쌈",
+      "무난한 음식",
+      "대기 시간"
+    ],
+    "procedures": [
+      {
+        "name": "돈까스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "오므라이스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 209,
+    "hospital_name": "닥터스피부과의원 반포점",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 깔끔한 환경에서 만족스러운 시술을 받을 수 있습니다. 통증은 약간 있지만 참을만 하며, 재방문 의사가 높습니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "재방문",
+      "효과적",
+      "프라이빗"
+    ],
+    "procedures": [
+      {
+        "name": "토닝",
+        "price_range": "합리적"
+      },
+      {
+        "name": "울써마지",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 210,
+    "hospital_name": "블레싱피부과의원",
+    "review_count": 10
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "음식은 맛있지만 직원의 불친절함이 아쉬운 곳입니다. 재방문 의사는 있으나 서비스 개선이 필요합니다.",
+    "keywords": [
+      "맛집",
+      "태국음식",
+      "불친절",
+      "재방문",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "2인 세트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "푸팟퐁커리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 211,
+    "hospital_name": "라인의정석의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "의사와 간호사들의 친절함이 돋보이나 대기시간과 간호사 응대에서 불만이 존재합니다. 종합적으로는 친절한 의료진이 있는 병원입니다.",
+    "keywords": [
+      "친절",
+      "의사",
+      "간호사",
+      "대기시간",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 212,
+    "hospital_name": "서울자이의원",
+    "review_count": 11
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절하고 전문적인 진료로 신뢰가 가는 피부과입니다. 시설도 깔끔하고 가격도 합리적입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "청결",
+      "합리적가격",
+      "효과적치료"
+    ],
+    "procedures": [
+      {
+        "name": "피부 상담",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 213,
+    "hospital_name": "예사랑피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "맛있는 빵과 쾌적한 분위기가 장점이나, 직원의 서비스가 아쉬움. 전반적으로 괜찮은 카페.",
+    "keywords": [
+      "맛있다",
+      "쾌적한",
+      "친절하지 않다",
+      "저렴하다",
+      "주차편리"
+    ],
+    "procedures": [
+      {
+        "name": "브런치",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 214,
+    "hospital_name": "갤러리아피부과의원 개포도곡점",
+    "review_count": 10
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "최신 시설과 친절한 직원들이 인상적입니다. 시술 효과도 빠르게 나타나며, 전반적으로 만족스러운 경험이었습니다. 가격 정보는 부족하지만 추천할 만한 곳입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "효과적",
+      "전문성",
+      "최신시설"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "켈로이드주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 215,
+    "hospital_name": "뷰테스의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 2,
+    "staff_score": 2,
+    "summary": "맛있는 음식과 다양한 메뉴가 장점이나 청결과 직원 친절도가 아쉬움. 전반적으로 괜찮은 식당.",
+    "keywords": [
+      "맛집",
+      "가성비",
+      "다양한메뉴",
+      "청결문제",
+      "친절도"
+    ],
+    "procedures": [
+      {
+        "name": "샤브샤브",
+        "price_range": "11,000원"
+      },
+      {
+        "name": "콩국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 216,
+    "hospital_name": "서울톤피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_217에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 217,
+    "hospital_name": "Hospital_217",
+    "review_count": 0
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 1,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "친절한 직원과 의사들이 있으나, 대기 시간이 길고 진료비에 대한 불만이 있다. 전반적으로 보통 수준의 피부과.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "진료비",
+      "피부과",
+      "에스테틱"
+    ],
+    "procedures": [
+      {
+        "name": "미용",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "에스테틱",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 218,
+    "hospital_name": "에버그린피부과의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 2,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "친절한 간호사와 불친절한 의사가 혼재되어 있으며, 가격이 저렴하지만 서비스 품질이 낮습니다. 전반적으로 추천하지 않습니다.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "불친절",
+      "비추천",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "염증 주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스케일링",
+        "price_range": "10만원"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 219,
+    "hospital_name": "박성주조에피부과의원",
+    "review_count": 8
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "여자 원장님과 직원들이 매우 친절하며, 진료 효과도 좋습니다. 단, 예약이 어려워 대기 시간이 길 수 있습니다. 전반적으로 긍정적인 경험입니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "예약어려움",
+      "여자원장",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "일반진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 220,
+    "hospital_name": "대치샘물피부과",
+    "review_count": 7
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 2,
+    "summary": "전문적인 진료를 제공하지만, 의사와의 소통이 원활하지 않아 불만이 많음. 가격은 보통 수준이며, 청결한 환경이 장점.",
+    "keywords": [
+      "전문성",
+      "소통문제",
+      "청결",
+      "과잉진료 없음",
+      "피부질환"
+    ],
+    "procedures": [
+      {
+        "name": "염증주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스테로이드 처방",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 221,
+    "hospital_name": "김진권피부과의원",
+    "review_count": 8
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "가성비가 뛰어난 맛집으로, 친절한 서비스가 장점입니다. 그러나 음식의 맛은 가격에 비해 다소 아쉬운 부분이 있습니다.",
+    "keywords": [
+      "가성비",
+      "친절",
+      "맛집",
+      "파스타",
+      "스테이크"
+    ],
+    "procedures": [
+      {
+        "name": "파스타",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스테이크",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 222,
+    "hospital_name": "삼성서울병원 피부과",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "음식의 맛과 양이 좋지만 가격 대비 아쉬움이 있음. 대기 시간이 있을 수 있으며, 주차 서비스가 불만족스러움.",
+    "keywords": [
+      "청국장",
+      "보리밥",
+      "맛집",
+      "가족식사",
+      "주차"
+    ],
+    "procedures": [
+      {
+        "name": "청국장 정식",
+        "price_range": "2만원"
+      },
+      {
+        "name": "두루치기 정식",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 223,
+    "hospital_name": "오체안피부과의원 강남본점",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "비싼 가격에 비해 서비스와 음식 품질이 낮음. 분위기는 좋지만 불친절한 직원으로 인해 불쾌한 경험이 많음. 전반적으로 추천하지 않음.",
+    "keywords": [
+      "비쌈",
+      "불친절",
+      "시끄러움",
+      "분위기좋음",
+      "저렴하지않음"
+    ],
+    "procedures": [
+      {
+        "name": "국화정식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "코스요리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 224,
+    "hospital_name": "메이퓨어의원 수서점",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 5,
+    "staff_score": 3,
+    "summary": "병원 시설이 깔끔하고 의사는 친절하지만, 직원의 서비스와 대기 시간이 아쉬운 편입니다. 전반적으로 신뢰할 수 있는 치료를 받을 수 있는 곳입니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "신뢰",
+      "대기시간",
+      "직원서비스"
+    ],
+    "procedures": [
+      {
+        "name": "기미 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 225,
+    "hospital_name": "수아로피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깨끗한 시설이 장점입니다. 시술 중 약간의 통증이 있을 수 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "추천",
+      "저렴",
+      "편리"
+    ],
+    "procedures": [
+      {
+        "name": "인모드",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부염 주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 226,
+    "hospital_name": "미모던피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 친절한 의료진과 청결한 환경이 장점이나, 가격에 대한 불만이 일부 존재합니다. 종합적으로는 괜찮은 피부과입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "전문가",
+      "피부과",
+      "대기시간"
+    ],
+    "procedures": [
+      {
+        "name": "피부진료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "점 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 227,
+    "hospital_name": "순수피부과 강남대치점",
+    "review_count": 8
+  },
+  {
+    "price_score": 1,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "비싼 가격에 비해 음식 품질이 낮고 서비스가 불친절합니다. 분위기는 좋지만 전반적으로 실망스러운 경험이었습니다.",
+    "keywords": [
+      "비쌈",
+      "불친절",
+      "시끄러움",
+      "맛없음",
+      "분위기좋음"
+    ],
+    "procedures": [
+      {
+        "name": "국화정식",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "코스요리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 228,
+    "hospital_name": "의맥홀딩스",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "레이저 시술 효과는 긍정적이나 타 피부과 대비 높은 가격대가 단점입니다. 환자 설명 부족과 의료진 태도 개선이 필요하며, 시술 효과 대비 비용 대비 만족도는 낮은 편입니다.",
+    "keywords": [
+      "고가격",
+      "레이저시술",
+      "효과있음",
+      "친절도낮음",
+      "피부질환"
+    ],
+    "procedures": [
+      {
+        "name": "풀독/레이저시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "사마귀/검버섯 제거 레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 229,
+    "hospital_name": "이지미의원",
+    "review_count": 5
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 5,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "대기시간이 짧고 친절한 직원들이 인상적입니다. 시술 후 회복이 느리다는 의견도 있으나 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "빠른 대기",
+      "회복",
+      "가격",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "점 제거",
+        "price_range": "15만원"
+      },
+      {
+        "name": "레이저 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 230,
+    "hospital_name": "좋은세상의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 적정한 가격대가 장점입니다. 시술 정보의 부정확성이 단점으로 지적되었습니다. 종합적으로 만족스러운 경험을 제공합니다.",
+    "keywords": [
+      "친절",
+      "가격",
+      "피부과",
+      "상담",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "스컬트라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "에스테필",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 231,
+    "hospital_name": "수지의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "맛있는 바게트와 샌드위치가 인기. 가격이 다소 부담스러울 수 있음. 전반적으로 만족스러운 경험.",
+    "keywords": [
+      "바게트",
+      "샌드위치",
+      "맛집",
+      "빵",
+      "디저트"
+    ],
+    "procedures": [
+      {
+        "name": "바게트 샌드위치",
+        "price_range": "약간 비쌈"
+      },
+      {
+        "name": "무화과 크림치즈",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 232,
+    "hospital_name": "미라클의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "여드름 치료와 모공 축소에 효과적이나, 불친절한 직원과 높은 가격이 단점으로 지적됨. 종합적으로 가성비가 떨어지는 병원.",
+    "keywords": [
+      "여드름",
+      "모공축소",
+      "불친절",
+      "가성비",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "모공 축소",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 233,
+    "hospital_name": "카리스의원",
+    "review_count": 13
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 진료와 친절한 직원 덕분에 치료 효과가 좋습니다. 대기 시간은 보통이며, 가격 정보는 부족합니다.",
+    "keywords": [
+      "친절",
+      "전문가",
+      "효과적",
+      "탈모치료",
+      "두피관리"
+    ],
+    "procedures": [
+      {
+        "name": "탈모 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "두피 관리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 234,
+    "hospital_name": "준앤민닥터포유의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "의사 선생님의 전문성은 인정받지만, 데스크 직원의 불친절함이 큰 문제로 지적되고 있습니다. 대기 시간이 길고, 환자에 대한 배려가 부족한 점이 아쉽습니다.",
+    "keywords": [
+      "불친절",
+      "전문성",
+      "대기시간",
+      "불만족",
+      "의사"
+    ],
+    "procedures": [
+      {
+        "name": "레이저 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 235,
+    "hospital_name": "이길주피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "전문적인 진료와 친절한 의사 선생님이 있지만, 예약 시스템과 데스크 직원의 불친절이 아쉬움으로 남습니다. 종합적으로는 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "예약문제",
+      "여드름",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 흉터 제거",
+        "price_range": "합리적"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 236,
+    "hospital_name": "봄봄피부과의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 1,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "전문의의 친절한 진료가 장점이나, 대기 시간이 길고 진료비가 비쌈. 전반적으로 개선이 필요.",
+    "keywords": [
+      "친절",
+      "비쌈",
+      "대기시간",
+      "전문의",
+      "피부질환"
+    ],
+    "procedures": [
+      {
+        "name": "진단",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "굳은살 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 237,
+    "hospital_name": "연세희망피부과의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 5,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "가성비가 뛰어난 맛집으로, 친절한 직원들이 인상적입니다. 다만, 복잡한 분위기와 대기 시간이 있을 수 있습니다.",
+    "keywords": [
+      "가성비",
+      "맛집",
+      "친절",
+      "뷔페",
+      "재방문"
+    ],
+    "procedures": [
+      {
+        "name": "한식뷔페",
+        "price_range": "8,000원~9,500원"
+      },
+      {
+        "name": "생맥주 무한리필",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 238,
+    "hospital_name": "더끌림피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "음식이 매우 맛있고 직원들이 친절합니다. 대기 시간이 다소 길 수 있으나 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "맛집",
+      "친절한 직원",
+      "중식",
+      "동파육",
+      "마라"
+    ],
+    "procedures": [
+      {
+        "name": "동파육",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "라즈지",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 239,
+    "hospital_name": "톡스앤필의원 송파",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비싸고 맛은 평균적이지만, 직원들이 매우 친절합니다. 웨이팅이 짧은 편이라 방문하기 좋습니다.",
+    "keywords": [
+      "비싸다",
+      "맛있다",
+      "친절하다",
+      "웨이팅",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "소곱창",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 240,
+    "hospital_name": "오라클피부과의원 대치점",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "독특한 인테리어와 감성 있는 분위기가 강점이며, 시그니처 칵테일과 일부 안주(우대갈비, 감자전)의 맛이 호평받았습니다. 다만 전반적으로 가격이 높은 편이며 칵테일 퀄리티가 불균형적이라는 지적이 있습니다.",
+    "keywords": [
+      "독특한분위기",
+      "시그니처칵테일",
+      "소개팅장소",
+      "감성적인공간",
+      "비싼가격대"
+    ],
+    "procedures": [
+      {
+        "name": "시그니처 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "십이지신 칵테일",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "우대갈비",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "감자전",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 241,
+    "hospital_name": "닥터스피부과의원 한티점",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "직원들은 친절하지만 치료 효과에 대한 불만이 많습니다. 가격과 대기 시간이 아쉽습니다. 전반적으로 추천하기 어려운 병원입니다.",
+    "keywords": [
+      "친절",
+      "불만",
+      "비용",
+      "효과",
+      "두드러기"
+    ],
+    "procedures": [
+      {
+        "name": "두드러기 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부과 진료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 242,
+    "hospital_name": "정은정피부과의원",
+    "review_count": 15
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "병원이 깔끔하고 친절한 직원들이 인상적입니다. 그러나 진료의 질에 대한 의견이 분분합니다. 전반적으로 보통 수준의 피부과입니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "전문성",
+      "진료비",
+      "과잉진료"
+    ],
+    "procedures": [
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "점 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 243,
+    "hospital_name": "서울피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "상담이 친절하고 관리 효과가 만족스러움. 가격 정보는 없음. 종합적으로 긍정적.",
+    "keywords": [
+      "친절",
+      "관리효과",
+      "만족",
+      "상담",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 244,
+    "hospital_name": "오라클피부과 청담점모발이식센터",
+    "review_count": 1
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "음식은 맛있지만 직원의 불친절함이 아쉬운 곳입니다. 가격은 적당하고 대기시간도 보통입니다.",
+    "keywords": [
+      "맛집",
+      "태국음식",
+      "불친절",
+      "가성비",
+      "재방문"
+    ],
+    "procedures": [
+      {
+        "name": "2인 세트",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "푸팟퐁커리",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 245,
+    "hospital_name": "이을피부과의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "전반적으로 맛과 양이 만족스러우며, 친절한 서비스가 돋보입니다. 다만, 웨이팅이 있을 수 있습니다.",
+    "keywords": [
+      "맛집",
+      "친절한 서비스",
+      "푸짐한 양",
+      "합리적인 가격",
+      "된장찌개"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "한돈삼겹오징어한판",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 246,
+    "hospital_name": "W피부클리닉",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "맛은 뛰어나지만 가격이 비싼 편입니다. 대기 시간이 발생할 수 있으며, 직원 서비스는 보통입니다.",
+    "keywords": [
+      "육회비빔밥",
+      "맛집",
+      "비싼가격",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "육회비빔밥",
+        "price_range": "21000원"
+      },
+      {
+        "name": "갈비탕",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 247,
+    "hospital_name": "라퓨클레르 동물피부클리닉",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "직원들의 불친절함이 두드러지며, 전문성이 부족한 인상을 받았습니다. 전반적으로 환자에 대한 배려가 부족한 곳입니다.",
+    "keywords": [
+      "불친절",
+      "전문성 부족",
+      "환자 대우",
+      "대기 시간",
+      "청결도"
+    ],
+    "procedures": [
+      {
+        "name": "산전 정액 검사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 248,
+    "hospital_name": "견의원",
+    "review_count": 4
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 2,
+    "staff_score": 2,
+    "summary": "육수와 제육, 어복쟁반 등 메뉴 품질은 강남 최고 수준으로 평가받으나, 가격이 비싼 편이고 시끄러운 분위기가 단점입니다. 맛에 정평이 있어 단골이 많지만 가성비를 중시하는 고객에게는 추천하기 어렵습니다.",
+    "keywords": [
+      "육수맛좋음",
+      "고가격대",
+      "시끄러운분위기",
+      "어복쟁반추천",
+      "강남명소"
+    ],
+    "procedures": [
+      {
+        "name": "평양냉면",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제육/수육",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어복쟁반",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 249,
+    "hospital_name": "삐땅기린뷰티",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 상담실장님과 원장님의 실력이 뛰어남. 가격과 대기 시간에 대한 정보는 부족함. 종합적으로 만족스러운 경험.",
+    "keywords": [
+      "친절",
+      "실력",
+      "상담",
+      "의원",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 250,
+    "hospital_name": "봄마루의원",
+    "review_count": 1
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 직원과 좋은 위치가 장점이나, 대기 시간이 길고 시술 품질에 대한 불만이 많음. 전반적으로 개선이 필요.",
+    "keywords": [
+      "친절",
+      "대기시간",
+      "시술품질",
+      "위치",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저 제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 251,
+    "hospital_name": "샤인빔 강남점",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깔끔한 병원 분위기가 장점입니다. 대기 시간이 다소 길 수 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "대기시간",
+      "시술",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "점 제거",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 252,
+    "hospital_name": "지우의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "직원들이 매우 친절하고 시술이 꼼꼼하게 이루어짐. 다만 대기 시간과 청결도는 개선이 필요함.",
+    "keywords": [
+      "친절",
+      "시술",
+      "레이저제모",
+      "음료제공",
+      "강남"
+    ],
+    "procedures": [
+      {
+        "name": "레이저제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "젠맥프플",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 253,
+    "hospital_name": "스페이드의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 2,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 상담과 시술로 만족스러운 결과를 얻었지만, 부작용으로 인해 대인활동에 어려움이 있었다.",
+    "keywords": [
+      "친절",
+      "상담",
+      "부작용",
+      "만족",
+      "시술"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 254,
+    "hospital_name": "에이탑뷰티클리닉",
+    "review_count": 3
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "원장님의 전문성과 친절함이 돋보이나, 일부 직원의 불친절과 긴 대기시간이 아쉬운 점입니다. 종합적으로는 추천할 만한 병원입니다.",
+    "keywords": [
+      "지방흡입",
+      "친절한원장",
+      "불친절한직원",
+      "대기시간",
+      "수면마취"
+    ],
+    "procedures": [
+      {
+        "name": "지방흡입",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "흑자치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 255,
+    "hospital_name": "제이에프셀 피부과의원",
+    "review_count": 8
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "타코의 맛이 멕시코 현지와 가깝고, 친절한 서비스가 돋보입니다. 그러나 가격 대비 양이 아쉬운 점이 있습니다. 전반적으로 추천할 만한 맛집입니다.",
+    "keywords": [
+      "타코",
+      "멕시코",
+      "친절",
+      "맛집",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "타코",
+        "price_range": "5천원"
+      },
+      {
+        "name": "혼합 타코",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 256,
+    "hospital_name": "라셀릭의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "친절한 의사와 직원들이 인상적이며, 가격이 저렴한 편입니다. 그러나 환자에 따라 대하는 태도가 다를 수 있습니다.",
+    "keywords": [
+      "친절",
+      "저렴",
+      "피부질환",
+      "신뢰",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "아이피엘 시술",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 주사",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 257,
+    "hospital_name": "더마주피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "분위기가 좋고 자리도 많은 카페지만 가격이 비싼 편입니다. 디저트의 가성비가 아쉬운 점이 있습니다. 전반적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "카페",
+      "분위기",
+      "맛있음",
+      "비쌈",
+      "친절"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 258,
+    "hospital_name": "청담모네의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "타코의 맛이 뛰어나며, 친절한 직원들이 인상적입니다. 다만 가격이 다소 아쉽고 대기 시간이 있을 수 있습니다.",
+    "keywords": [
+      "타코",
+      "멕시코",
+      "맛집",
+      "친절",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "타코",
+        "price_range": "5000원"
+      },
+      {
+        "name": "혼합 타코",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 259,
+    "hospital_name": "ST성모피부과",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "피부 개선 효과가 뛰어나고 친절한 직원들이 인상적입니다. 다만 가격에 대한 정보는 부족합니다.",
+    "keywords": [
+      "피부관리",
+      "친절",
+      "효과적",
+      "개성",
+      "강매없음"
+    ],
+    "procedures": [
+      {
+        "name": "정액권 관리",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "홈케어 제품",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 260,
+    "hospital_name": "꼼에스테틱 신사본점",
+    "review_count": 2
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "친절한 직원과 깨끗한 시설이 장점입니다. 가격이 저렴하고 1인실에서 집중 관리가 가능합니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "저렴",
+      "1인실",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "쑥코스",
+        "price_range": "132,000원"
+      },
+      {
+        "name": "골드코스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 261,
+    "hospital_name": "세신샵 스파 헤움",
+    "review_count": 9
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "편안하고 친절한 서비스가 돋보이는 마사지샵입니다. 가격은 적당하며, 청결한 환경에서 만족스러운 관리를 받을 수 있습니다.",
+    "keywords": [
+      "마사지",
+      "청결",
+      "친절",
+      "편안함",
+      "효과적"
+    ],
+    "procedures": [
+      {
+        "name": "마사지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "흡입케어",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 262,
+    "hospital_name": "디오리엔탈스파 가로수길본점",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_263에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 263,
+    "hospital_name": "Hospital_263",
+    "review_count": 0
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "친절한 직원과 효과적인 시술이 장점이나, 가격과 케어 집중 부족이 단점입니다. 전반적으로 긍정적인 경험.",
+    "keywords": [
+      "친절",
+      "효과",
+      "가격",
+      "케어",
+      "인스타"
+    ],
+    "procedures": [
+      {
+        "name": "패키지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "1:1 상담",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 264,
+    "hospital_name": "끌리메 신사본점",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "Hospital_265에 대한 분석을 수행할 수 없습니다.",
+    "keywords": [],
+    "procedures": [],
+    "analyzed_by": "none",
+    "hospital_id": 265,
+    "hospital_name": "Hospital_265",
+    "review_count": 0
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "청담 지역 대비 합리적인 가격대에 김치찌개, 제육볶음 등 기본에 충실한 밥집입니다. 택시기사들도 찾는 지역 맛집이나 최근 맛 편차와 추가 비용(발렛비, 밥값)에 대한 불만이 있습니다. 가성비 좋은 야식/새벽 식당으로 평가됩니다.",
+    "keywords": [
+      "김치찌개",
+      "제육볶음",
+      "가성비",
+      "새벽식당",
+      "택시기사맛집"
+    ],
+    "procedures": [
+      {
+        "name": "김치찌개",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제육볶음",
+        "price_range": "8,000원"
+      },
+      {
+        "name": "김치짜글이",
+        "price_range": "10,000원"
+      },
+      {
+        "name": "목살김치찜",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "계란말이",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 266,
+    "hospital_name": "뷰티블르바드",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비쌈에도 불구하고 양이 많고 맛이 괜찮은 편입니다. 하지만 웨이팅이 길고 맛에 대한 기대가 크면 실망할 수 있습니다. 전반적으로 친절한 서비스가 돋보입니다.",
+    "keywords": [
+      "비쌈",
+      "양많음",
+      "웨이팅",
+      "친절",
+      "맛있음"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "소곱창",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 267,
+    "hospital_name": "타이니뷰티",
+    "review_count": 19
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "뷰티스트의 실력 차이가 있지만, 전반적으로 친절한 서비스가 인상적입니다. 가격이 다소 비싸게 느껴질 수 있습니다.",
+    "keywords": [
+      "친절",
+      "비용",
+      "뷰티",
+      "개인차",
+      "서비스"
+    ],
+    "procedures": [
+      {
+        "name": "부기 제거",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "시술",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 268,
+    "hospital_name": "끌리메 삼성점",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 1,
+    "summary": "직원 친절도가 매우 낮아 불만이 많음. 전화 응대 개선 필요. 종합적으로 서비스 품질이 떨어짐.",
+    "keywords": [
+      "친절 부족",
+      "전화 응대",
+      "서비스 품질",
+      "불만",
+      "개선 필요"
+    ],
+    "procedures": [
+      {
+        "name": "피부관리",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "시술명2",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 269,
+    "hospital_name": "스킨랩엘 청담점",
+    "review_count": 2
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "팟타이, 랭셉 등 태국음식의 맛이 우수하며 고기가 부드럽고 신선해 맛있다는 평가가 많습니다. 주말/점심시간 웨이팅이 길고 협소한 공간이 단점이며, 가격대는 중상 수준입니다.",
+    "keywords": [
+      "웨이팅길음",
+      "맛있는태국요리",
+      "협소한공간",
+      "고기부드러움",
+      "가격중상"
+    ],
+    "procedures": [
+      {
+        "name": "팟타이",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "랭셉(감자탕)",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "공심채 바질돼지고기볶음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "족발덮밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "똠양꿍",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "새우튀김",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "탕후루 팟타이와 마늘 돼지뼈",
+        "price_range": "39,000원"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 270,
+    "hospital_name": "고센피부",
+    "review_count": 17
+  },
+  {
+    "price_score": 1,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "가격이 비쌉니다. 하지만 맛있고, 직원들이 친절하며 깨끗한 환경입니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "맛있음",
+      "친절",
+      "청결",
+      "비쌈",
+      "외국인"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 271,
+    "hospital_name": "트리츠",
+    "review_count": 1
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "가격이 비싼 편이지만 양이 많고 맛은 평균적입니다. 웨이팅은 짧은 편이며 직원들이 친절합니다.",
+    "keywords": [
+      "비쌈",
+      "양많음",
+      "맛평균",
+      "웨이팅짧음",
+      "친절"
+    ],
+    "procedures": [
+      {
+        "name": "곱창쌀국수",
+        "price_range": "16000원"
+      },
+      {
+        "name": "매운소곱창쌀국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 272,
+    "hospital_name": "베르메디",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "유명 셰프들의 단골집으로 알려진 프리미엄 고기 맛집. 삼겹살과 반찬이 우수하며 스태프의 친절도가 매우 높다. 평일 저녁 대기 시간이 적은 편으로 접근성이 좋다.",
+    "keywords": [
+      "삼겹살",
+      "반찬맛집",
+      "친절한스태프",
+      "셰프단골집",
+      "중곡동맛집"
+    ],
+    "procedures": [
+      {
+        "name": "삼겹살",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "한우구이",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 273,
+    "hospital_name": "저스트",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "착한 가격과 친절한 서비스가 돋보이는 맛집입니다. 대기 시간이 다소 있을 수 있지만, 전반적으로 만족스러운 경험을 제공합니다.",
+    "keywords": [
+      "맛집",
+      "친절",
+      "가격",
+      "두부",
+      "막걸리"
+    ],
+    "procedures": [
+      {
+        "name": "순두부",
+        "price_range": "착한가격"
+      },
+      {
+        "name": "콩국수",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 274,
+    "hospital_name": "원앤온리",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 5,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "맛있고 푸짐한 식사로 만족도가 높습니다. 웨이팅이 있을 수 있지만 친절한 서비스가 돋보입니다. 전반적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "맛집",
+      "친절",
+      "푸짐한 양",
+      "된장찌개",
+      "점심"
+    ],
+    "procedures": [
+      {
+        "name": "우삼겹오징어한판",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "한돈삼겹오징어 한판",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 275,
+    "hospital_name": "포엔의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 맛있는 음식이 장점입니다. 하지만 가격이 비싸고 대기 시간이 길어 불편할 수 있습니다. 종합적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "맛있음",
+      "비쌈",
+      "대기시간",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "마라탕",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "샤브샤브",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 276,
+    "hospital_name": "톡스앤필의원 강남본점",
+    "review_count": 15
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절한 직원과 꼼꼼한 관리로 만족도가 높습니다. 대기시간이 다소 길고, 시술 결과에 대한 불만도 일부 존재합니다. 종합적으로 긍정적인 경험이 많습니다.",
+    "keywords": [
+      "친절",
+      "시술효과",
+      "관리",
+      "대기시간",
+      "만족도"
+    ],
+    "procedures": [
+      {
+        "name": "리팟레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "MCT 줄기세포주사",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 277,
+    "hospital_name": "더웰니스의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 전문적인 시술로 만족도가 높습니다. 대기시간이 다소 있을 수 있으나, 전반적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "만족도",
+      "리프팅",
+      "필러"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 278,
+    "hospital_name": "신사에그의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "친절한 직원과 꼼꼼한 시술이 장점입니다. 대기 시간이 길어 불만이 있는 환자도 있습니다. 전반적으로 만족스러운 경험입니다.",
+    "keywords": [
+      "친절",
+      "시술효과",
+      "대기시간",
+      "보톡스",
+      "울쎄라"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "입술필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "슈링크",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 279,
+    "hospital_name": "리필톡의원",
+    "review_count": 16
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "고기 맛은 좋지만, 직원의 친절함과 위생 문제가 아쉬운 곳입니다. 웨이팅이 길어도 맛있다는 평이 많습니다.",
+    "keywords": [
+      "고기",
+      "웨이팅",
+      "친절",
+      "위생",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "목살",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "짜파게티",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 280,
+    "hospital_name": "르웰의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "원장님과 직원들이 매우 친절하고 세심한 상담을 제공합니다. 시술 효과가 좋고 만족도가 높지만, 대기 시간이 보통입니다. 전반적으로 추천할 만한 클리닉입니다.",
+    "keywords": [
+      "친절",
+      "효과좋음",
+      "세심한상담",
+      "만족도높음",
+      "추천"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "울쎄라",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 281,
+    "hospital_name": "피네의원",
+    "review_count": 11
+  },
+  {
+    "price_score": 4,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 4,
+    "summary": "친절한 직원과 깔끔한 시설이 장점입니다. 시술 강요가 다소 불편할 수 있습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "저렴",
+      "시술강요",
+      "상담"
+    ],
+    "procedures": [
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 282,
+    "hospital_name": "비오페이스의원",
+    "review_count": 10
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "친절한 직원과 밝은 분위기가 장점입니다. 가격이 비싸다는 의견도 있으나 효과가 좋습니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "효과적",
+      "비용",
+      "청결",
+      "만족"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "피부 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 283,
+    "hospital_name": "해피부과",
+    "review_count": 4
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "고기 맛과 메뉴는 좋지만, 직원의 친절함과 위생 상태가 아쉬움. 웨이팅이 길어 불편할 수 있음.",
+    "keywords": [
+      "고기맛",
+      "웨이팅",
+      "친절도",
+      "위생",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "목살",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "된장찌개",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "짜파게티",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 284,
+    "hospital_name": "더이뻐의원",
+    "review_count": 19
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "소수정예로 진행되어 부담 없이 즐거운 경험이었습니다. 강사님이 매우 친절하셨습니다. 다시 방문하고 싶습니다.",
+    "keywords": [
+      "원데이클래스",
+      "베이킹",
+      "소수정예",
+      "친절",
+      "재미"
+    ],
+    "procedures": [
+      {
+        "name": "원데이클래스",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 285,
+    "hospital_name": "강남더슬림의원",
+    "review_count": 1
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절한 직원과 깔끔한 환경이 장점입니다. 가격과 대기 시간에 대한 언급은 없지만 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "청결",
+      "편안함",
+      "소규모",
+      "보톡스"
+    ],
+    "procedures": [
+      {
+        "name": "보톡스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "레이저",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 286,
+    "hospital_name": "더결의원",
+    "review_count": 3
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전문적인 시술과 친절한 직원들이 인상적입니다. 다소 아픈 시술이 있을 수 있으나, 전반적으로 만족도가 높습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "시술효과",
+      "청결",
+      "가성비"
+    ],
+    "procedures": [
+      {
+        "name": "리쥬란 힐러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "스킨부스터",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "루비레이저",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쥬베룩",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "팔자주름 리프팅",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 287,
+    "hospital_name": "우유빛의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 2,
+    "cleanliness_score": 4,
+    "staff_score": 3,
+    "summary": "족발의 식감은 부드럽고 쫀득하다는 긍정평이 있으나, 염도가 과도하게 높다는 지적이 반복된다. 기업화로 인한 맛 저하와 긴 웨이팅이 주요 단점이며, 가격대비 만족도가 낮은 편이다.",
+    "keywords": [
+      "족발",
+      "염도높음",
+      "웨이팅길음",
+      "기업화",
+      "쫀득함"
+    ],
+    "procedures": [
+      {
+        "name": "일반족발",
+        "price_range": "40,000원"
+      },
+      {
+        "name": "불족발",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "냉채족발",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "쟁반냉면",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 288,
+    "hospital_name": "도브의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 4,
+    "cleanliness_score": 3,
+    "staff_score": 2,
+    "summary": "강남의 평양냉면 맛집으로 육수와 어복쟁반이 뛰어나고 웨이팅이 적은 편이나, 비싼 가격과 시끄러운 환경, 불친절한 직원이 단점입니다. 맛 자체는 우수하지만 전반적인 서빙 품질 개선이 필요합니다.",
+    "keywords": [
+      "평양냉면",
+      "육수맛",
+      "고가격",
+      "시끄러움",
+      "어복쟁반"
+    ],
+    "procedures": [
+      {
+        "name": "평양냉면",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "어복쟁반",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "제육/수육",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "만두",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 289,
+    "hospital_name": "서울에이치피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "특별한 분위기와 다양한 메뉴가 장점이나 가격이 비싼 편입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "강남역",
+      "술집",
+      "칵테일",
+      "분위기",
+      "모임"
+    ],
+    "procedures": [
+      {
+        "name": "칵테일",
+        "price_range": "₩₩₩₩"
+      },
+      {
+        "name": "안주",
+        "price_range": "₩₩₩"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 290,
+    "hospital_name": "메이퓨어의원 강남점",
+    "review_count": 20
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 편안한 분위기에서 시술을 받을 수 있는 곳입니다. 가격도 합리적이고 청결한 환경이 장점입니다. 다만, 시술의 일관성이 떨어질 수 있습니다.",
+    "keywords": [
+      "친절",
+      "편안함",
+      "합리적가격",
+      "청결",
+      "전문성"
+    ],
+    "procedures": [
+      {
+        "name": "남자 수염 제모",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여자 제모",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 291,
+    "hospital_name": "모던스탠다드의원",
+    "review_count": 13
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 4,
+    "summary": "분위기가 좋고 자리가 많지만 가격이 비싼 편입니다. 디저트의 가성비가 아쉬운 점이 있습니다. 전반적으로 추천할 만한 카페입니다.",
+    "keywords": [
+      "분위기",
+      "가격",
+      "디저트",
+      "친절",
+      "자리"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 292,
+    "hospital_name": "청담오라클피부과의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 4,
+    "staff_score": 4,
+    "summary": "분위기가 좋고 커피와 디저트 맛이 뛰어나지만 가격이 비쌉니다. 전반적으로 편안한 카페입니다.",
+    "keywords": [
+      "분위기",
+      "커피",
+      "디저트",
+      "친절",
+      "청결"
+    ],
+    "procedures": [
+      {
+        "name": "커피",
+        "price_range": "비쌈"
+      },
+      {
+        "name": "디저트",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 293,
+    "hospital_name": "제이드의원",
+    "review_count": 18
+  },
+  {
+    "price_score": 2,
+    "pain_score": 3,
+    "wait_time_score": 1,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "태국 음식의 맛과 품질이 우수하여 재방문율이 높은 식당입니다. 다만 인기 많은 만큼 웨이팅이 길고 좁은 공간이 단점입니다. 가격대는 중상으로 적절한 수준입니다.",
+    "keywords": [
+      "웨이팅길음",
+      "맛있음",
+      "자극적인맛",
+      "협소한공간",
+      "팟타이"
+    ],
+    "procedures": [
+      {
+        "name": "팟타이",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "랭쎕",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "족발덮밥",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "똠양꿍",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "공심채바질돼지고기볶음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "새우튀김",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "claude",
+    "hospital_id": 294,
+    "hospital_name": "눈피부과의원",
+    "review_count": 17
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 3,
+    "summary": "신사동의 인기 디저트 카페로 다양한 메뉴가 매력적입니다. 다만, 대기시간이 있을 수 있습니다. 전반적으로 보통 수준입니다.",
+    "keywords": [
+      "디저트",
+      "가로수길",
+      "프렌치와플",
+      "크로플",
+      "맛집"
+    ],
+    "procedures": [
+      {
+        "name": "프렌치 와플",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "버터떡",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 295,
+    "hospital_name": "디캐럿의원 신사본점",
+    "review_count": 4
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "전문적이고 친절한 직원들 덕분에 만족스러운 시술을 받을 수 있었습니다. 다만 가격이 다소 비싸다는 의견이 있습니다. 종합적으로 추천할 만한 병원입니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "청결",
+      "만족도",
+      "가격"
+    ],
+    "procedures": [
+      {
+        "name": "눈썹문신",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "아이라인문신",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "헤어라인",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "두피문신",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 296,
+    "hospital_name": "리앤채움의원",
+    "review_count": 20
+  },
+  {
+    "price_score": 3,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전문성과 친절함이 돋보이는 의원입니다. 후기가 적어 다소 불안할 수 있으나, 의사와 직원의 친절함이 장점입니다. 종합적으로 긍정적인 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문성",
+      "편안함",
+      "실력",
+      "의원"
+    ],
+    "procedures": [
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "정보없음",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 297,
+    "hospital_name": "청담쟈스민라인의원",
+    "review_count": 2
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 4,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "친절하고 전문적인 진료로 편안한 분위기를 제공합니다. 대기 시간도 짧고 청결한 환경이 장점입니다. 전반적으로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "전문가",
+      "청결",
+      "편안한 분위기",
+      "신뢰"
+    ],
+    "procedures": [
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 298,
+    "hospital_name": "청담포워드피부과의원",
+    "review_count": 13
+  },
+  {
+    "price_score": 3,
+    "pain_score": 4,
+    "wait_time_score": 3,
+    "cleanliness_score": 3,
+    "staff_score": 5,
+    "summary": "전반적으로 친절하고 실력 있는 의료진이 있으며, 치료 효과도 좋습니다. 가격 정보는 부족하지만 대체로 만족스러운 경험이었습니다.",
+    "keywords": [
+      "친절",
+      "실력",
+      "치료효과",
+      "만족",
+      "피부과"
+    ],
+    "procedures": [
+      {
+        "name": "필러",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "여드름 및 흉터 치료",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 299,
+    "hospital_name": "청담엔비의원",
+    "review_count": 6
+  },
+  {
+    "price_score": 4,
+    "pain_score": 3,
+    "wait_time_score": 3,
+    "cleanliness_score": 5,
+    "staff_score": 5,
+    "summary": "엠레드의원 별관은 친절한 직원과 깔끔한 시설이 장점입니다. 시술 효과도 좋지만 통증이 다소 있을 수 있습니다. 종합적으로 추천할 만한 곳입니다.",
+    "keywords": [
+      "친절",
+      "깔끔",
+      "효과적",
+      "편안한 분위기",
+      "남성 제모"
+    ],
+    "procedures": [
+      {
+        "name": "젠틀맥스프로플러스",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리프팅",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "리쥬란",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "써마지",
+        "price_range": "정보없음"
+      },
+      {
+        "name": "튜닝 패키지",
+        "price_range": "정보없음"
+      }
+    ],
+    "analyzed_by": "openai",
+    "hospital_id": 300,
+    "hospital_name": "엠레드의원 별관",
+    "review_count": 20
+  }
+]
