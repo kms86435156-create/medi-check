@@ -1,0 +1,807 @@
+# DAY 1 — 강남/신논현 피부과 300곳 스크래핑
+
+## 목표
+Playwright(Python) 헤드리스 모드로 카카오맵 또는 네이버 플레이스에서 강남·신논현 피부과 300곳의 기본 정보를 수집하고 CSV로 저장합니다.
+
+## 지시사항
+1. `pip install playwright pandas asyncio` 로 의존성을 설치하세요.
+2. `scraper/hospital_scraper.py` 파일을 만들고 아래 기능을 구현하세요:
+   - async 함수 `scrape_hospitals(keyword="강남 피부과", limit=300)`
+   - DOM에서 병원명, 전화번호, 주소, 진료시간 추출
+   - 1~3초 랜덤 딜레이 적용 (차단 방지)
+   - 실패 시 최대 2회 재시도 로직
+3. 결과를 `data/hospitals_base.csv` 에 저장 (컬럼: id, name, phone, address, hours, place_url)
+4. 스크래핑 진행 상황을 tqdm 프로그레스바로 출력하세요.
+
+## 결과물
+- `scraper/hospital_scraper.py`
+- `data/hospitals_base.csv` (300행)
+- 실행 방법이 적힌 `scraper/README.md`
+
+# DAY 2 — 리뷰 데이터 무한 크롤링 및 클렌징
+
+## 목표
+Day 1의 hospitals_base.csv를 기반으로 각 병원의 리뷰를 '더보기' 버튼 자동 클릭으로 전량 수집하고, 정규표현식으로 즉시 정제합니다.
+
+## 지시사항
+1. `scraper/review_scraper.py` 파일을 만드세요.
+2. 핵심 기능:
+   - async def `crawl_reviews(hospital_url, max_pages=50)`
+   - '더보기' 버튼 selector: `button[class*="more"]` 또는 텍스트 기반 탐색
+   - 이모지 제거: `re.sub(r'[\U00010000-\U0010ffff]', '', text)`
+   - 스팸 전화번호 패턴 제거: `re.sub(r'0\d{1,2}-\d{3,4}-\d{4}', '', text)`
+   - 최소 글자 수 10자 미만 리뷰 필터링
+3. 결과를 `data/reviews_raw.json` 으로 저장:
+   `{"hospital_id": 1, "review_text": "...", "date": "...", "rating": 5}`
+4. 병원별 수집 카운트를 로그 파일(`logs/scrape.log`)에 기록하세요.
+
+## 결과물
+- `scraper/review_scraper.py`
+- `data/reviews_raw.json` (10만 건 목표)
+
+# DAY 3 — 로컬 MySQL DB 구축 및 데이터 일괄 삽입
+
+## 목표
+hospitals와 reviews 테이블을 설계하고, Day 1·2의 CSV/JSON 데이터를 SQLAlchemy bulk insert로 빠르게 적재합니다.
+
+## 지시사항
+1. `database/schema.sql` 파일을 만드세요:
+   ```sql
+   CREATE TABLE hospitals (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     name VARCHAR(100) NOT NULL,
+     phone VARCHAR(20),
+     address VARCHAR(200),
+     hours VARCHAR(300),
+     place_url VARCHAR(500),
+     lat DOUBLE, lng DOUBLE,
+     ai_summary JSON,
+     premium_rank INT DEFAULT 0,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   );
+   CREATE TABLE reviews (
+     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+     hospital_id INT NOT NULL,
+     review_text TEXT,
+     rating TINYINT,
+     review_date DATE,
+     FOREIGN KEY (hospital_id) REFERENCES hospitals(id)
+   );
+   ```
+2. `database/seed.py` 파일: SQLAlchemy `bulk_insert_mappings`로 데이터 삽입
+3. `.env` 파일에 DB 접속 정보 저장 (python-dotenv 사용)
+4. 삽입 완료 후 카운트 검증 쿼리 출력
+
+## 결과물
+- `database/schema.sql`
+- `database/seed.py`
+- `.env.example`
+
+# DAY 4 — Gemini API 연동 및 AI 프롬프트 엔지니어링
+
+## 목표
+Gemini API로 리뷰 100개씩 배치 처리하여 병원별 AI 평가 리포트를 JSON으로 생성합니다.
+
+## 지시사항
+1. `pip install google-generativeai` 설치
+2. `ai/gemini_analyzer.py` 파일 작성:
+   - 함수 `analyze_hospital(hospital_id, reviews: list[str]) -> dict`
+   - 리뷰 100개씩 청크 분할 후 API 호출
+   - 프롬프트 템플릿:
+     ```
+     다음은 [병원명]에 대한 실제 환자 리뷰입니다.
+     아래 항목을 JSON 형식으로만 응답하세요 (다른 텍스트 없이):
+     {
+       "price_score": 1-5,
+       "pain_score": 1-5,
+       "wait_time_score": 1-5,
+       "cleanliness_score": 1-5,
+       "staff_score": 1-5,
+       "summary": "3줄 요약",
+       "keywords": ["태그1","태그2","태그3"],
+       "procedures": ["시술명": "가격대"]
+     }
+     ```
+3. JSON 파싱 실패 시 재시도 로직 구현
+4. 샘플 5개 병원에 대해 테스트 실행 후 `data/ai_sample.json` 저장
+
+## 결과물
+- `ai/gemini_analyzer.py`
+- `data/ai_sample.json` (5개 병원 샘플)
+
+# DAY 5 — AI 자동화 배치 스크립트 실행 (300개 병원)
+
+## 목표
+Day 4의 분석 코드를 전체 300개 병원에 asyncio 기반으로 일괄 적용하고 DB의 ai_summary 컬럼을 업데이트합니다.
+
+## 지시사항
+1. `ai/batch_runner.py` 파일 작성:
+   - asyncio.Semaphore(5)로 동시 요청 5개 제한
+   - Gemini Rate Limit 고려: 분당 60 요청 → `asyncio.sleep(1)` 삽입
+   - 실패한 hospital_id는 `logs/failed_ids.txt`에 저장 후 재시도
+   - 진행 상황: `{완료}/{전체} hospitals processed` 출력
+2. DB 업데이트 쿼리:
+   `UPDATE hospitals SET ai_summary = %s WHERE id = %s`
+3. 완료 후 통계 출력:
+   - 성공/실패 건수
+   - 평균 점수 top 10 병원 목록
+4. `nohup python batch_runner.py &` 백그라운드 실행 방법 README에 기록
+
+## 결과물
+- `ai/batch_runner.py`
+- DB `ai_summary` 컬럼 300개 완성
+
+# DAY 6 — FastAPI 백엔드 프로젝트 구축
+
+## 목표
+FastAPI 프로젝트를 생성하고 병원/리뷰 라우터를 Pydantic 스키마와 함께 구성합니다.
+
+## 지시사항
+1. 프로젝트 구조 생성:
+   ```
+   backend/
+   ├── main.py
+   ├── routers/
+   │   ├── hospitals.py
+   │   └── reviews.py
+   ├── schemas/
+   │   ├── hospital.py
+   │   └── review.py
+   ├── models/
+   │   └── database.py
+   └── requirements.txt
+   ```
+2. Pydantic 스키마 정의 (schemas/hospital.py):
+   - HospitalBase, HospitalCreate, HospitalResponse
+   - ai_summary 필드 포함 (Optional[dict])
+3. 엔드포인트 구현:
+   - GET /api/hospitals (페이지네이션: page, size)
+   - GET /api/hospitals/{id}
+   - GET /api/reviews/{hospital_id}
+4. CORS 미들웨어 설정 (모든 origin 허용)
+5. `uvicorn main:app --reload` 실행 후 localhost:8000/docs 스크린샷 확인
+
+## 결과물
+- `backend/` 전체 구조
+- localhost:8000/docs Swagger UI 정상 동작
+
+# DAY 7 — LBS 위치기반 검색 API 개발
+
+## 목표
+사용자 위경도를 받아 반경 5km 내 병원을 AI 평점순으로 반환하는 API를 구현합니다.
+
+## 지시사항
+1. 카카오 로컬 API로 병원 주소 → 위경도 변환 (`utils/geocoding.py`):
+   `GET https://dapi.kakao.com/v2/local/search/address.json`
+2. `routers/search.py` 에 엔드포인트 추가:
+   `GET /api/search?lat=37.5&lng=127.0&radius=5&sort=ai_score`
+3. Haversine 공식 SQL 구현:
+   ```sql
+   SELECT *, (6371 * acos(cos(radians(:lat)) * cos(radians(lat))
+   * cos(radians(lng) - radians(:lng)) + sin(radians(:lat))
+   * sin(radians(lat)))) AS distance
+   FROM hospitals HAVING distance < :radius
+   ORDER BY distance ASC
+   ```
+4. 응답에 distance(km) 필드 포함
+5. Postman 컬렉션 파일(`postman/medi-check.json`) 생성
+
+## 결과물
+- `routers/search.py`
+- `utils/geocoding.py`
+- Postman 컬렉션
+
+# DAY 8 — JWT 인증 시스템 및 AWS EC2 인프라 구축
+
+## 목표
+사용자 회원가입·로그인 JWT API를 구현하고 AWS EC2에 배포 환경을 설정합니다.
+
+## 지시사항
+1. `pip install python-jose[cryptography] passlib[bcrypt]`
+2. `routers/auth.py` 구현:
+   - POST /api/auth/register (email, password)
+   - POST /api/auth/login → access_token 반환
+   - GET /api/auth/me → 현재 유저 정보 (Bearer 토큰 필요)
+3. 비밀번호 bcrypt 해시 저장
+4. JWT 만료시간: ACCESS_TOKEN 30분, REFRESH_TOKEN 7일
+5. AWS 세팅 가이드 `infra/aws_setup.md` 작성:
+   - EC2 Ubuntu 22.04 t3.micro 생성
+   - Elastic IP 할당
+   - 보안그룹: 22(SSH), 80(HTTP), 443(HTTPS) 인바운드 허용
+   - .pem 키 권한: `chmod 400 key.pem`
+
+## 결과물
+- `routers/auth.py`
+- `infra/aws_setup.md`
+- JWT 인증 동작 확인
+
+# DAY 9 — Docker 컨테이너화 및 AWS 실서버 배포
+
+## 목표
+FastAPI + MySQL + Nginx를 Docker Compose로 묶고 HTTPS 도메인으로 배포합니다.
+
+## 지시사항
+1. `Dockerfile` (FastAPI):
+   ```dockerfile
+   FROM python:3.11-slim
+   WORKDIR /app
+   COPY requirements.txt .
+   RUN pip install -r requirements.txt
+   COPY . .
+   CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+   ```
+2. `docker-compose.yml` 3개 서비스: fastapi, mysql, nginx
+3. `nginx/default.conf`:
+   - 80 → 443 리다이렉트
+   - SSL 인증서 경로: `/etc/letsencrypt/live/api.medi-check.com/`
+   - Upstream: `http://fastapi:8000`
+4. Let's Encrypt 발급:
+   `certbot --nginx -d api.medi-check.com`
+5. 배포 스크립트 `deploy.sh` 작성:
+   `git pull && docker-compose down && docker-compose up -d --build`
+
+# DAY 10 — Flutter 앱 메인 홈화면 구현
+
+## 목표
+Flutter 프로젝트를 생성하고 부위별 아이콘 + 추천 병원 가로 스크롤 홈 UI를 구현합니다.
+
+## 지시사항
+1. `flutter create medi_check_app` 후 `pubspec.yaml` 의존성 추가:
+   ```yaml
+   dio: ^5.3.2
+   provider: ^6.1.1
+   cached_network_image: ^3.3.0
+   ```
+2. 폴더 구조:
+   `lib/screens/home_screen.dart`
+   `lib/widgets/category_chip.dart`
+   `lib/widgets/hospital_card.dart`
+   `lib/services/api_service.dart`
+3. 홈화면 구성:
+   - AppBar: "Medi-Check" 로고 + 위치 아이콘
+   - 카테고리 가로 스크롤: 여드름, 흉터, 모공, 레이저, 리프팅 (아이콘+텍스트)
+   - 추천 병원 카드 리스트: 병원명, 별점, 대표 키워드 3개
+4. api_service.dart에 GET /api/hospitals 호출 구현
+5. `flutter run` 에뮬레이터 실행 확인
+
+## 결과물
+- Flutter 프로젝트 전체
+- 홈화면 에뮬레이터 동작 확인
+
+# DAY 11 — 네이버 맵 연동 및 병원 상세 페이지
+
+## 목표
+네이버 맵에 주변 병원 마커를 표시하고, 마커 클릭 시 AI 평점 레이더 차트가 있는 상세 페이지로 전환합니다.
+
+## 지시사항
+1. pubspec.yaml 추가:
+   `flutter_naver_map: ^1.1.0`
+   `fl_chart: ^0.65.0`
+2. `lib/screens/map_screen.dart`:
+   - 현재 위치 권한 요청
+   - GET /api/search?lat=&lng=&radius=5 호출
+   - 각 병원에 NMarker 표시
+   - 마커 탭 → 병원 상세 페이지 push
+3. `lib/screens/hospital_detail_screen.dart`:
+   - 기본 정보 (병원명, 주소, 전화, 진료시간)
+   - RadarChart 위젯 (fl_chart): 가격·통증·대기·청결·직원 5개 축
+   - AI 요약 텍스트
+   - "상담 신청" CTA 버튼 (하단 고정)
+4. 화면 전환 애니메이션: `PageRouteBuilder` 커스텀 슬라이드
+
+## 결과물
+- `map_screen.dart`
+- `hospital_detail_screen.dart`
+- 레이더 차트 동작 확인
+
+# DAY 12 — 상담 신청 폼 및 FCM 푸시 알림 연동
+
+## 목표
+앱에서 상담 신청 폼 제출 시 DB 저장 + FCM 푸시 알림이 가는 전체 플로우를 완성합니다.
+
+## 지시사항
+1. 백엔드 `routers/consultations.py`:
+   - POST /api/consultations (hospital_id, name, phone, message, fcm_token)
+   - DB 저장 후 병원 측 FCM 토큰으로 푸시 발송
+2. FCM Admin SDK 설정 (`utils/fcm.py`):
+   `pip install firebase-admin`
+   서비스 계정 JSON 키 로드 → send notification
+3. Flutter `lib/screens/consultation_screen.dart`:
+   - 이름, 전화번호, 문의내용 TextField
+   - "신청하기" 버튼 → API POST 호출
+   - 성공 시 SnackBar: "✓ 성공적으로 접수되었습니다"
+   - 실패 시 에러 다이얼로그
+4. flutter_local_notifications로 수신 알림 처리
+
+## 결과물
+- `routers/consultations.py`
+- `utils/fcm.py`
+- `consultation_screen.dart`
+
+# DAY 13 — B2C 수익화: 인앱 결제 및 AdMob 광고 삽입
+
+## 목표
+병원 리스트 중간에 네이티브 광고를 삽입하고, AI 딥리포트 유료 잠금 기능(월 4,900원)을 구현합니다.
+
+## 지시사항
+1. pubspec.yaml 추가:
+   `google_mobile_ads: ^4.0.0`
+   `in_app_purchase: ^3.1.13`
+2. 광고 설정 (`lib/services/ad_service.dart`):
+   - NativeAd 로드 후 리스트 5번째마다 삽입
+   - 테스트 AdUnit ID 사용 (배포 전 실제 ID로 교체)
+3. 인앱 결제 (`lib/services/purchase_service.dart`):
+   - 상품 ID: `medi_check_vip_monthly`
+   - purchaseStream 구독 → 결제 완료 시 SharedPreferences에 `isVip: true` 저장
+4. 상세 페이지 AI 리포트 섹션:
+   - `isVip == false`이면 블러 처리 + "VIP 리포트 보기 ₩4,900/월" 버튼
+   - 버튼 탭 → 결제 플로우 진입
+5. 샌드박스 테스트 완료 확인
+
+## 결과물
+- `ad_service.dart`
+- `purchase_service.dart`
+- VIP 잠금 UI
+
+# DAY 14 — React.js B2B 관리자 웹 대시보드 개발
+
+## 목표
+병원 원장님이 PC에서 접속해 상담 신청 통계와 AI 리뷰 분석을 볼 수 있는 어드민 대시보드를 만듭니다.
+
+## 지시사항
+1. `npx create-react-app admin-dashboard` 후 의존성:
+   `npm install axios recharts react-router-dom @mui/material`
+2. 페이지 구조:
+   - `/login` : 병원 ID/PW 로그인
+   - `/dashboard` : 통계 메인 (로그인 필요)
+3. 대시보드 컴포넌트:
+   - `<StatsCards />`: 이번 달 상담 신청 수, 앱 노출 수, 전환율
+   - `<ConsultationList />`: 미처리/처리 완료 상담 신청 테이블
+   - `<ReviewSentimentChart />`: 긍/부정 리뷰 비율 도넛 차트 (recharts)
+   - `<AiScoreRadar />`: 5개 항목 레이더 차트
+4. JWT 토큰 axios interceptor로 자동 첨부
+5. `npm run build` 성공 확인
+
+## 결과물
+- `admin-dashboard/` 전체
+- 대시보드 UI 스크린샷
+
+# DAY 15 — B2B 대시보드 실서버 배포 및 백엔드 연동
+
+## 목표
+React 대시보드를 빌드해 admin.medi-check.com으로 배포하고 실시간 데이터 연동을 완료합니다.
+
+## 지시사항
+1. 백엔드에 병원 어드민 전용 API 추가 (`routers/admin.py`):
+   - GET /api/admin/stats?hospital_id=
+   - GET /api/admin/consultations?hospital_id=&status=
+   - 병원 JWT 토큰으로 본인 데이터만 접근 가능하도록 권한 처리
+2. `admin-dashboard/.env`:
+   `REACT_APP_API_URL=https://api.medi-check.com`
+3. Nginx admin 서브도메인 설정 (`nginx/admin.conf`):
+   ```nginx
+   server {
+     listen 443 ssl;
+     server_name admin.medi-check.com;
+     root /var/www/admin;
+     try_files $uri /index.html;
+   }
+   ```
+4. 배포 스크립트:
+   `npm run build && rsync -avz build/ ubuntu@EC2:/var/www/admin/`
+5. Let's Encrypt admin 서브도메인 인증서 발급
+
+## 결과물
+- `routers/admin.py`
+- https://admin.medi-check.com 접속 확인
+
+# DAY 16 — iOS/Android 앱 스토어 심사 제출
+
+## 목표
+릴리즈 빌드를 생성하고 Apple App Store Connect와 Google Play Console에 심사를 제출합니다.
+
+## 지시사항
+1. 앱 아이콘 생성: `flutter_launcher_icons` 패키지 (1024x1024 PNG)
+2. 스플래시 스크린: `flutter_native_splash` 패키지
+3. `flutter build appbundle --release` (Android)
+4. `flutter build ipa --release` (iOS, Mac 필요)
+5. Google Play Console 제출 체크리스트:
+   - 앱 설명 (한국어), 스크린샷 최소 2장
+   - 개인정보처리방침 URL (GitHub Pages 활용)
+   - 타겟 연령: 18세 이상
+6. App Store Connect 체크리스트:
+   - Sign in with Apple 구현 확인
+   - 권한 사용 목적 (NSLocationWhenInUseUsageDescription 등)
+   - 심사 참고 메모 작성
+7. 개인정보처리방침 HTML 페이지 생성 (`privacy-policy.html`)
+
+## 결과물
+- `privacy-policy.html`
+- App Store "심사 대기 중" 상태
+- Google Play "검토 중" 상태
+
+# DAY 17 — 바이럴 마케팅 콘텐츠 제작
+
+## 목표
+에브리타임, 디시인사이드 성형갤러리 등에 올릴 바이럴 게시글 10개를 작성하고 마케팅 자료를 정리합니다.
+
+## 지시사항
+1. `marketing/viral_posts.md` 파일 생성
+2. 게시글 형태별로 작성:
+   - [정보 공유형] "직접 크롤링해서 만든 강남 피부과 실제 가격 데이터" - 3개
+   - [리뷰형] "앱 써봤는데 진짜 시술 원가 나옴" - 3개
+   - [질문형] "강남 피부과 어디가 제일 낫냐 물어봄 → AI가 데이터로 답해줬다" - 2개
+   - [비교형] "XX피부과 vs YY피부과 AI 점수 비교" - 2개
+3. 각 게시글:
+   - 제목 + 본문 (300~500자)
+   - 타겟 커뮤니티 명시 (에브리타임/디시/블라인드/네이버카페)
+   - 앱 다운로드 링크 삽입 위치 표시
+4. `marketing/posting_schedule.md`: 게시 일정 (시간대, 커뮤니티)
+
+## 결과물
+- `marketing/viral_posts.md`
+- `marketing/posting_schedule.md`
+
+# DAY 18 — B2B 영업 콜드 메일 100개 자동 생성
+
+## 목표
+Python으로 병원별 맞춤 PDF 리포트 100장을 자동 생성하고 발송 준비를 완료합니다.
+
+## 지시사항
+1. `pip install pdfkit jinja2 smtplib`
+2. PDF 리포트 템플릿 (`templates/hospital_report.html`):
+   - 병원명, AI 점수 레이더 차트 (이미지로 삽입)
+   - 상위 5개 긍정 키워드
+   - 경쟁 병원 대비 순위
+   - 맞춤 제안 문구
+3. `outreach/generate_reports.py`:
+   - DB에서 병원 정보 조회
+   - Jinja2로 HTML 렌더링 → pdfkit으로 PDF 변환
+   - `reports/{hospital_id}_{name}.pdf` 저장
+4. `outreach/cold_email_drafts.csv` 생성:
+   - 컬럼: hospital_id, name, email, subject, body
+   - 제목: "[Medi-Check] {병원명} AI 평판 리포트를 추출했습니다"
+5. 이메일 트래킹 픽셀 삽입 (`<img src="https://api.medi-check.com/track/{id}">`)
+
+## 결과물
+- `outreach/generate_reports.py`
+- PDF 리포트 100장
+- `cold_email_drafts.csv`
+
+# DAY 19 — 앱 심사 거절 사유 분석 및 긴급 수정
+
+## 목표
+Apple/Google 심사 거절 사유를 분석하고 코드를 수정해 재심사 제출합니다.
+
+## 지시사항
+1. 자주 거절되는 사항을 미리 수정:
+   **Apple 일반 거절 사유:**
+   - Sign in with Apple 누락 → `sign_in_with_apple` 패키지 추가
+   - 위치 권한 설명 부족 → Info.plist NSLocationWhenInUseUsageDescription 상세화
+   - 앱 심사용 테스트 계정 미제공 → 리뷰어 계정 생성
+   **Google 일반 거절 사유:**
+   - 개인정보 정책 URL 접근 불가 → HTTPS 확인
+   - 권한 남용 → 사용하지 않는 권한 제거
+2. `lib/screens/login_screen.dart`에 Apple 로그인 버튼 추가
+3. 앱 심사 메모 업데이트 (테스트 계정, 특이사항 명시)
+4. 수정 후 `flutter build` 재실행 → 스토어 재제출
+5. `docs/rejection_log.md`: 거절 사유 + 대응 기록
+
+## 결과물
+- Apple Sign In 구현
+- `docs/rejection_log.md`
+- 재심사 제출 완료
+
+# DAY 20 — 인스타/틱톡 숏폼 영상 제작용 소재 준비
+
+## 목표
+앱 시연 화면을 포함한 30초 숏폼 영상용 스크립트와 화면 녹화 소재를 준비합니다.
+
+## 지시사항
+1. Flutter 앱에서 데모용 목데이터 화면 준비:
+   - 앱을 켜면 바로 보이는 "강남 Top 5 피부과 AI 분석" 결과 화면
+   - 실제처럼 보이는 레이더 차트 + 가격 정보
+2. `marketing/shortform_scripts.md` 작성:
+   **영상 1: "피부과 호구 안 당하는 법"**
+   - 00~05초: 후킹 ("강남 피부과에서 바가지 쓰는 이유")
+   - 05~20초: 앱 화면 시연 (AI 가격 비교)
+   - 20~30초: CTA ("링크에서 무료 다운")
+   **영상 2: "AI가 피부과 리뷰 10만 건 분석한 결과"**
+   - 데이터 기반 신뢰도 강조
+3. 화면 녹화 가이드: 어떤 화면을 몇 초 녹화할지 명세
+4. CapCut 편집 가이드 (자막 스타일, BGM 추천) 추가
+
+## 결과물
+- `marketing/shortform_scripts.md`
+- 앱 데모 화면 완성
+
+# DAY 21 — 앱 공식 런칭 및 초기 트래픽 발생
+
+## 목표
+심사 통과 후 바이럴 게시글, SNS 광고, 숏폼 영상을 일제히 배포해 초기 200+ 다운로드를 달성합니다.
+
+## 지시사항
+1. Firebase Analytics 이벤트 설정 (`lib/services/analytics_service.dart`):
+   - `logEvent('app_open')`
+   - `logEvent('hospital_viewed', {'hospital_id': id})`
+   - `logEvent('consultation_requested')`
+   - `logEvent('vip_purchase_started')`
+2. 런칭 체크리스트 `docs/launch_checklist.md` 작성:
+   - 바이럴 게시글 10개 업로드 시간 배분 (에브리타임, 디시, 블라인드)
+   - 인스타그램 스폰서드 광고 설정 (일 1만원, 타겟: 20~35세 여성, 강남)
+   - 숏폼 영상 업로드 플랫폼 및 해시태그
+3. AdMob 테스트 ID → 실제 프로덕션 ID로 교체
+4. 런칭 당일 대시보드 모니터링 쿼리:
+   `SELECT COUNT(*) FROM firebase_events WHERE date=TODAY`
+
+## 결과물
+- `analytics_service.dart`
+- `docs/launch_checklist.md`
+- 실서버 AdMob 활성화
+
+# DAY 22 — 인앱 결제 퍼널 분석 및 A/B 테스트
+
+## 목표
+Firebase Analytics로 결제 전환 퍼널을 분석하고, 결제 유도 팝업 카피를 A/B 테스트합니다.
+
+## 지시사항
+1. Firebase Analytics 퍼널 이벤트 정의:
+   - 단계: app_open → hospital_viewed → vip_section_clicked → purchase_started → purchase_completed
+2. `lib/widgets/vip_paywall.dart` A/B 테스트 구현:
+   - SharedPreferences에 `ab_variant: 'A' or 'B'` 저장
+   - A안: "전문가 AI 분석 리포트 전체 보기 (월 4,900원)"
+   - B안: "이 병원 진짜 가격대 공개 🔓 (월 4,900원)"
+   - 각 버전 클릭 시 `logEvent('paywall_clicked', {'variant': 'A'})`
+3. 백엔드에 A/B 결과 저장 API:
+   POST /api/ab-test (user_id, variant, action)
+4. `analytics/paywall_analysis.sql` 분석 쿼리 작성
+
+## 결과물
+- `vip_paywall.dart` (A/B 버전)
+- `analytics/paywall_analysis.sql`
+
+# DAY 23 — B2B 콜드 메일 발송 및 오픈율 트래킹
+
+## 목표
+Day 18의 영업 메일 100개를 발송하고 이메일 오픈 트래킹 시스템을 구동합니다.
+
+## 지시사항
+1. 백엔드 트래킹 픽셀 엔드포인트 (`routers/tracking.py`):
+   `GET /track/{email_id}` → 1x1 투명 PNG 반환 + DB 기록
+   ```python
+   @router.get("/track/{email_id}")
+   async def track_open(email_id: int, request: Request):
+       await db.execute("UPDATE email_outreach SET opened_at=NOW(), open_count=open_count+1 WHERE id=:id", {"id": email_id})
+       return Response(content=PIXEL_PNG, media_type="image/png")
+   ```
+2. 메일 발송 스크립트 (`outreach/send_emails.py`):
+   - smtplib + SSL, 시간당 20개 제한 (스팸 방지)
+   - 발송 성공/실패 `logs/email_send.log` 기록
+3. 트래킹 대시보드 쿼리:
+   `SELECT name, open_count, opened_at FROM email_outreach ORDER BY open_count DESC`
+4. `email_outreach` DB 테이블 스키마 추가
+
+## 결과물
+- `routers/tracking.py`
+- `outreach/send_emails.py`
+- 오픈율 트래킹 동작 확인
+
+# DAY 24 — 이메일 2회 오픈 병원 무료 부스팅 자동화
+
+## 목표
+이메일을 2회 이상 열어본 병원 5곳을 자동으로 앱 상단에 노출시켜 상담 신청을 유도합니다.
+
+## 지시사항
+1. 부스팅 대상 자동 추출 쿼리:
+   ```sql
+   SELECT hospital_id, name, open_count FROM email_outreach
+   WHERE open_count >= 2 ORDER BY open_count DESC LIMIT 5;
+   ```
+2. 백엔드 어드민 API (`routers/admin.py`에 추가):
+   POST /api/admin/boost: hospital_id 리스트를 받아 premium_rank=99 설정
+3. 검색 API 정렬 로직 수정:
+   `ORDER BY premium_rank DESC, ai_score DESC, distance ASC`
+4. 부스팅 자동화 스크립트 (`scripts/auto_boost.py`):
+   - 매일 오전 8시 cron으로 실행
+   - 2회 이상 오픈 병원 자동 추출 → boost API 호출
+5. 부스팅 만료 처리: 7일 후 premium_rank=0 리셋
+
+## 결과물
+- `scripts/auto_boost.py`
+- 부스팅 API 엔드포인트
+- crontab 설정
+
+# DAY 25 — 콜드콜 영업 지원 도구 및 무료 체험 계정 발급
+
+## 목표
+상담 신청이 들어간 병원에 전화 영업을 지원하는 데이터 리포트를 자동 생성하고, 무료 체험 계정 발급 시스템을 구축합니다.
+
+## 지시사항
+1. 콜드콜 지원 스크립트 (`scripts/call_prep.py`):
+   - 부스팅 병원의 최근 7일 상담 신청 건수 조회
+   - "원장님, 지난 주말 상담 {N}건 들어왔습니다" 멘트용 데이터 추출
+2. 백엔드 무료 체험 계정 발급 API:
+   POST /api/admin/trial: hospital_id → 30일 trial 계정 생성
+   - trial_expires_at 컬럼 추가
+   - 만료 시 대시보드 접근 차단
+3. 어드민 대시보드 trial 배너:
+   "무료 체험 D-{N}일 남음 | 유료 전환하기" CTA
+4. 무료 → 유료 전환 결제: Stripe 또는 토스페이먼츠 연동 준비
+   (실제 결제는 Day 29에 완성)
+
+## 결과물
+- `scripts/call_prep.py`
+- trial 계정 API
+- 대시보드 trial 배너
+
+# DAY 26 — 트래픽 급증 대응 서버 스케일업 및 성능 최적화
+
+## 목표
+DAU 3,000명 대비 EC2 업그레이드, DB 쿼리 최적화, CDN 적용으로 서버 안정성을 확보합니다.
+
+## 지시사항
+1. AWS EC2 인스턴스 타입 변경: t3.micro → t3.small (무중단)
+   - AWS CLI: `aws ec2 modify-instance-attribute --instance-type t3.small`
+2. MySQL 인덱스 최적화:
+   ```sql
+   CREATE INDEX idx_hospital_lat_lng ON hospitals(lat, lng);
+   CREATE INDEX idx_reviews_hospital ON reviews(hospital_id);
+   CREATE INDEX idx_consultations_hospital ON consultations(hospital_id, created_at);
+   ```
+3. FastAPI 응답 캐싱 (`utils/cache.py`):
+   - `pip install redis`
+   - 검색 결과 5분 캐시: `redis.setex(cache_key, 300, json_result)`
+4. Nginx rate limiting (`nginx/default.conf` 수정):
+   `limit_req_zone $binary_remote_addr zone=api:10m rate=30r/m;`
+5. 서버 모니터링: AWS CloudWatch CPU/메모리 알람 설정 (80% 이상 시 이메일)
+
+## 결과물
+- EC2 스케일업 완료
+- DB 인덱스 + Redis 캐시
+- CloudWatch 알람 설정
+
+# DAY 27 — 앱 내 커뮤니티 게시판 백엔드 개발
+
+## 목표
+유저 체류시간을 높이는 시술 후기 게시판의 CRUD API와 Flutter UI를 구현합니다.
+
+## 지시사항
+1. DB 테이블 추가:
+   ```sql
+   CREATE TABLE posts (
+     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+     user_id INT, hospital_id INT,
+     title VARCHAR(200), content TEXT,
+     procedure_type VARCHAR(50),
+     likes INT DEFAULT 0,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   );
+   CREATE TABLE post_likes (user_id INT, post_id BIGINT, PRIMARY KEY(user_id, post_id));
+   ```
+2. 백엔드 `routers/posts.py`:
+   - GET /api/posts (카테고리 필터, 페이지네이션)
+   - POST /api/posts (인증 필요)
+   - POST /api/posts/{id}/like (토글)
+3. Flutter `lib/screens/community_screen.dart`:
+   - 탭: 전체/여드름/흉터/모공/레이저
+   - 카드: 제목, 병원명, 시술 유형, 좋아요 수
+   - FloatingActionButton으로 글쓰기
+4. 홈 화면 하단 네비게이션에 커뮤니티 탭 추가
+
+## 결과물
+- `routers/posts.py`
+- `community_screen.dart`
+- 홈 네비게이션 업데이트
+
+# DAY 28 — B2B 대면 영업 미팅 준비 자료 생성
+
+## 목표
+병원 원장님 대면 미팅용 태블릿 프레젠테이션 자료와 상담 전환율 리포트를 자동 생성합니다.
+
+## 지시사항
+1. 미팅용 PDF 덱 생성 (`sales/generate_pitch_deck.py`):
+   - 병원별 맞춤 데이터 포함
+   - 슬라이드 구성: 앱 소개 → 트래픽 증거 → 해당 병원 통계 → 요금제
+   - pdfkit + Jinja2로 자동화
+2. 해당 병원 통계 리포트 (실시간 DB 조회):
+   - 지난 7일 앱 노출 수
+   - 상담 신청 건수
+   - 경쟁 병원 대비 AI 점수 순위
+3. 요금제 비교표 (`sales/pricing.md`):
+   - Free: 기본 노출
+   - Standard (30만원/월): 대시보드 + 상담 관리
+   - Premium (50만원/월): 최상단 고정 노출 + 전담 CS
+4. 미팅 스크립트 `sales/meeting_script.md` 작성
+
+## 결과물
+- `sales/generate_pitch_deck.py`
+- `sales/pricing.md`
+- `sales/meeting_script.md`
+
+# DAY 29 — B2B SaaS 결제 시스템 구현 (토스페이먼츠)
+
+## 목표
+월 구독 결제(50만원)를 토스페이먼츠 API로 구현하고 병원 유료 계정 자동 활성화를 완성합니다.
+
+## 지시사항
+1. `pip install requests` + 토스페이먼츠 시크릿 키 .env 저장
+2. 백엔드 `routers/payments.py`:
+   - POST /api/payments/confirm: paymentKey, orderId, amount 검증
+   - 결제 성공 시 hospital_plan='premium', plan_expires_at = now+30days 업데이트
+   - 실패 시 롤백 + 에러 로깅
+3. React 어드민 대시보드에 결제 페이지 추가:
+   - 토스페이먼츠 위젯 임베드
+   - 결제 성공 → 대시보드 즉시 프리미엄 기능 활성화
+4. 영수증 이메일 자동 발송 (`utils/email.py`에 추가):
+   - 결제 완료 시 HTML 영수증 발송
+5. `subscriptions` DB 테이블: 결제 이력 전체 기록
+
+## 결과물
+- `routers/payments.py`
+- 어드민 결제 페이지
+- 자동 계정 활성화
+
+# DAY 30 — B2B 영업 레퍼런스 활용 리드 관리 시스템
+
+## 목표
+계약 병원을 레퍼런스로 활용한 도어투도어 영업 결과를 관리하는 CRM 기능을 어드민에 추가합니다.
+
+## 지시사항
+1. DB 테이블 추가:
+   ```sql
+   CREATE TABLE b2b_leads (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     hospital_name VARCHAR(100),
+     contact_name VARCHAR(50),
+     phone VARCHAR(20),
+     email VARCHAR(100),
+     status ENUM('new','contacted','trial','converted','lost') DEFAULT 'new',
+     notes TEXT,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   );
+   ```
+2. 백엔드 `routers/crm.py`:
+   - GET/POST/PATCH /api/crm/leads
+   - 상태 변경 시 updated_at 자동 기록
+3. React 어드민에 CRM 페이지 추가:
+   - 리드 목록 테이블 (상태별 색상 구분)
+   - 상태 변경 드롭다운
+   - "Trial 계정 발급" 버튼 → Day 25 trial API 연동
+4. 영업 현황 요약 카드 (대시보드 홈에 추가):
+   - 총 리드 수 / 트라이얼 중 / 계약 완료
+
+## 결과물
+- `routers/crm.py`
+- React CRM 페이지
+- 영업 현황 대시보드 카드
+
+# DAY 31 — 프리미엄 노출 구좌 상품 기획 및 구현
+
+## 목표
+월 100만원 "앱 최상단 고정 노출" 상품을 구현하고 5월 전체 수익을 결산합니다.
+
+## 지시사항
+1. DB `hospitals` 테이블에 컬럼 추가:
+   `premium_tier ENUM('none','standard','premium') DEFAULT 'none'`
+   `premium_expires_at DATETIME`
+2. 검색/홈 API 정렬 알고리즘 업데이트:
+   `ORDER BY FIELD(premium_tier,'premium','standard','none'), ai_score DESC, distance ASC`
+3. Flutter 앱 프리미엄 UI:
+   - 병원 카드에 "AD" 또는 "추천" 배지 표시
+   - 프리미엄 병원은 상단 별도 섹션에 고정 노출
+4. React 어드민 프리미엄 상품 신청 페이지:
+   - 구좌 현황: "이번 달 3/5 구좌 판매 중"
+   - 결제 → premium_tier='premium' 자동 업데이트
+5. `reports/may_revenue_report.py` 작성:
+   - B2C (구독 + 광고) + B2B (구독 + 프리미엄) 합산
+   - 일별 수익 그래프 데이터 출력
+
+## 결과물
+- 프리미엄 정렬 알고리즘
+- Flutter 프리미엄 배지 UI
+- 어드민 프리미엄 구좌 페이지
+- `reports/may_revenue_report.py`
+
+
+
+
